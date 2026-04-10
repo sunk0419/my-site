@@ -1,5 +1,5 @@
-import SiteFrame from "../components/SiteFrame";
-import HomeSections from "../components/HomeSections";
+import SiteFrame from "@/components/SiteFrame";
+import HomeSections from "@/components/HomeSections";
 
 export default function HomePage() {
   return (

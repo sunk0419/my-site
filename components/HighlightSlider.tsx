@@ -140,9 +140,8 @@ export default function HighlightSlider() {
               ))}
             </div>
 
-            <span className="text-[11px] tracking-[0.14em] text-blue-100/70">
-              AUTO
-            </span>
+            
+            
           </div>
         </div>
       </div>

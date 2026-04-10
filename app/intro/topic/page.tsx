@@ -2,13 +2,13 @@ import SiteFrame from "@/components/SiteFrame";
 import DetailPageShell from "@/components/DetailPageShell";
 import ContentPlaceholder from "@/components/ContentPlaceholder";
 
-export default function TopicsProjectPage() {
+export default function IntroTopicPage() {
   return (
     <SiteFrame>
-      <DetailPageShell groupKey="topics" pageKey="topics_project">
+      <DetailPageShell groupKey="intro" pageKey="intro_topic">
         <ContentPlaceholder
-          title="세부 과제"
-          description="과제 구조, 담당 연구팀, 과제별 설명과 이미지를 이 페이지에 넣으면 됩니다."
+          title="연구주제 소개"
+          description="전체 연구주제 소개, 핵심 키워드, 대표 그림 등을 이 페이지에 넣으면 됩니다."
         />
       </DetailPageShell>
     </SiteFrame>

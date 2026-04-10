@@ -28,10 +28,26 @@ export const menuGroups: MenuGroup[] = [
     description: "컨소시엄 전체 소개 페이지",
     route: "/intro",
     items: [
-      { key: "intro_greeting", label: "총괄책임자 및 인사말", route: "/intro/greeting" },
-      { key: "intro_topic", label: "연구주제 소개", route: "/intro/topic" },
-      { key: "intro_org", label: "조직도", route: "/intro/org" },
-      { key: "intro_location", label: "오시는 길", route: "/intro/location" },
+      {
+        key: "intro_greeting",
+        label: "총괄책임자 및 인사말",
+        route: "/intro/greeting",
+      },
+      {
+        key: "intro_topic",
+        label: "연구주제 소개",
+        route: "/intro/topic",
+      },
+      {
+        key: "intro_org",
+        label: "조직도",
+        route: "/intro/org",
+      },
+      {
+        key: "intro_location",
+        label: "오시는 길",
+        route: "/intro/location",
+      },
     ],
   },
   {
@@ -40,10 +56,26 @@ export const menuGroups: MenuGroup[] = [
     description: "총괄 목표와 세부 과제 소개",
     route: "/topics",
     items: [
-      { key: "topics_goal", label: "총괄 연구 목표", route: "/topics/goal" },
-      { key: "topics_detail", label: "세부 주제", route: "/topics/detail" },
-      { key: "topics_project", label: "세부 과제", route: "/topics/project" },
-      { key: "topics_equipment", label: "연구기획 및 장비", route: "/topics/equipment" },
+      {
+        key: "topics_goal",
+        label: "총괄 연구 목표",
+        route: "/topics/goal",
+      },
+      {
+        key: "topics_detail1",
+        label: "세부 주제 1",
+        route: "/topics/detail1",
+      },
+      {
+        key: "topics_detail2",
+        label: "세부 주제 2",
+        route: "/topics/detail2",
+      },
+      {
+        key: "topics_equipment",
+        label: "연구기획 및 장비",
+        route: "/topics/equipment",
+      },
     ],
   },
   {
@@ -52,10 +84,26 @@ export const menuGroups: MenuGroup[] = [
     description: "연구팀 전체 소개 페이지",
     route: "/teams",
     items: [
-      { key: "teams_professors", label: "교수진 구성", route: "/teams/professors" },
-      { key: "teams_members", label: "연구팀 구성", route: "/teams/members" },
-      { key: "teams_sub1", label: "세부1 연구팀", route: "/teams/sub1" },
-      { key: "teams_sub2", label: "세부2 연구팀", route: "/teams/sub2" },
+      {
+        key: "teams_professors",
+        label: "교수진 구성",
+        route: "/teams/professors",
+      },
+      {
+        key: "teams_members",
+        label: "연구팀 구성",
+        route: "/teams/members",
+      },
+      {
+        key: "teams_sub1",
+        label: "세부1 연구팀",
+        route: "/teams/sub1",
+      },
+      {
+        key: "teams_sub2",
+        label: "세부2 연구팀",
+        route: "/teams/sub2",
+      },
     ],
   },
   {
@@ -64,10 +112,26 @@ export const menuGroups: MenuGroup[] = [
     description: "공지와 자료를 모아보는 페이지",
     route: "/news",
     items: [
-      { key: "news_papers", label: "논문 업로드", route: "/news/papers" },
-      { key: "news_hiring", label: "채용 공고", route: "/news/hiring" },
-      { key: "news_seminar", label: "세미나 및 특강", route: "/news/seminar" },
-      { key: "news_archive", label: "자료실", route: "/news/archive" },
+      {
+        key: "news_papers",
+        label: "논문 업로드",
+        route: "/news/papers",
+      },
+      {
+        key: "news_hiring",
+        label: "채용 공고",
+        route: "/news/hiring",
+      },
+      {
+        key: "news_seminar",
+        label: "세미나 및 특강",
+        route: "/news/seminar",
+      },
+      {
+        key: "news_archive",
+        label: "자료실",
+        route: "/news/archive",
+      },
     ],
   },
 ];
@@ -138,20 +202,20 @@ export const pageInfoMap: Record<string, PageInfo> = {
     route: "/topics/goal",
     groupKey: "topics",
   },
-  topics_detail: {
-    key: "topics_detail",
-    label: "세부 주제",
-    title: "세부 주제",
-    subtitle: "세부 주제별 연구 소개",
-    route: "/topics/detail",
+  topics_detail1: {
+    key: "topics_detail1",
+    label: "세부 주제 1",
+    title: "세부 주제 1",
+    subtitle: "세부 주제 1 소개",
+    route: "/topics/detail1",
     groupKey: "topics",
   },
-  topics_project: {
-    key: "topics_project",
-    label: "세부 과제",
-    title: "세부 과제",
-    subtitle: "과제별 구성 및 추진 내용",
-    route: "/topics/project",
+  topics_detail2: {
+    key: "topics_detail2",
+    label: "세부 주제 2",
+    title: "세부 주제 2",
+    subtitle: "세부 주제 2 소개",
+    route: "/topics/detail2",
     groupKey: "topics",
   },
   topics_equipment: {
