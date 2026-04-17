@@ -73,7 +73,7 @@ export const menuGroups: MenuGroup[] = [
       },
       {
         key: "topics_equipment",
-        label: "연구기획 및 장비",
+        label: "연구기획 및 추진전략",
         route: "/topics/equipment",
       },
     ],
@@ -127,11 +127,7 @@ export const menuGroups: MenuGroup[] = [
         label: "세미나 및 특강",
         route: "/news/seminar",
       },
-      {
-        key: "news_archive",
-        label: "자료실",
-        route: "/news/archive",
-      },
+      
     ],
   },
 ];
@@ -220,9 +216,9 @@ export const pageInfoMap: Record<string, PageInfo> = {
   },
   topics_equipment: {
     key: "topics_equipment",
-    label: "연구기획 및 장비",
-    title: "연구기획 및 장비",
-    subtitle: "연구기획 및 장비 구축 현황",
+    label: "연구기획 및 추진전략",
+    title: "연구기획 및 추진전략",
+    subtitle: "연구기획 및 추진전략 소개",
     route: "/topics/equipment",
     groupKey: "topics",
   },
@@ -300,14 +296,7 @@ export const pageInfoMap: Record<string, PageInfo> = {
     route: "/news/seminar",
     groupKey: "news",
   },
-  news_archive: {
-    key: "news_archive",
-    label: "자료실",
-    title: "자료실",
-    subtitle: "문서, 발표자료, 참고자료",
-    route: "/news/archive",
-    groupKey: "news",
-  },
+ 
 };
 
 export const partnerLogos = [

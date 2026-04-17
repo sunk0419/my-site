@@ -140,9 +140,7 @@ function FeatureCard({
         <p className="mt-3 text-sm leading-7 text-zinc-600">{description}</p>
 
         <div className="mt-6 flex items-center justify-between">
-          <div className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-500">
-            상세 페이지 연결
-          </div>
+          
 
           {cta ? (
             <div className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white transition group-hover:bg-blue-700">
@@ -192,7 +190,7 @@ export default function HomeSections() {
                 </h2>
                 <p className="mt-4 max-w-2xl text-sm leading-7 text-zinc-600">
                   양자자기공명센서 컨소시엄의 비전, 연구 방향, 조직 구성을
-                  한눈에 확인할 수 있는 메인 안내 영역입니다.
+                  한눈에 확인할 수 있는 <br />메인 안내 영역입니다.
                 </p>
 
                 <div className="mt-6">
@@ -217,14 +215,14 @@ export default function HomeSections() {
           <FeatureCard
             eyebrow="Research Output"
             title="최신 연구성과 소개"
-            description="논문, 성과 기사, 보도자료, 주요 마일스톤을 메인에서 요약하고 상세 페이지로 자연스럽게 연결하는 영역입니다."
+            description="양자 플래그십 컨소시엄의 최신 연구성과를 소개합니다."
             href="/news/papers"
             cta="연구성과 보러가기"
           />
           <FeatureCard
             eyebrow="Consortium Activity"
             title="컨소시엄 활동 소개"
-            description="세미나, 워크숍, 연구 교류, 장비 구축 현황처럼 프로젝트의 현재 움직임을 보여주는 카드 영역으로 쓰기 좋습니다."
+            description="양자 플래그십 컨소시엄의 세미나, 워크숍 등 주요 활동을 소개합니다."
             href="/news/seminar"
             cta="활동 내용 보러가기"
           />

@@ -59,7 +59,7 @@ export default function HighlightSlider() {
   useEffect(() => {
     const timer = window.setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
-    }, 2500);
+    }, 3000);
 
     return () => window.clearInterval(timer);
   }, []);
