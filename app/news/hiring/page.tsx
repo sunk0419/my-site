@@ -120,6 +120,7 @@ export default function NewsRecruitmentPage() {
             </p>
 
             <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
+              채용공고 세부 내용을 소개합니다.
             </h1>
 
             <p
