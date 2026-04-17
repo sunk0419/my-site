@@ -35,8 +35,8 @@ export default function TopicsEquipmentPage() {
               RESEARCH PLANNING & STRATEGY
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
-              컨소시엄의 연구기획과 추진체계를 소개합니다.
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
+              컨소시엄의 연구기획과 추진체계
             </h1>
 
             <p

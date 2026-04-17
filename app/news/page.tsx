@@ -36,8 +36,8 @@ export default function NewsPage() {
               NEWS & NOTICE
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
-              소식 및 공고를 한눈에 확인할 수 있습니다
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
+              컨소시엄의 소식과 공지사항
             </h1>
 
             <p

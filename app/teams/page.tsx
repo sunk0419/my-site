@@ -62,9 +62,9 @@ export default function TeamsPage() {
                     <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
                       OVERVIEW
                     </p>
-                    <h2 className="mt-2 text-3xl font-semibold tracking-tight text-zinc-950 md:text-[2.25rem]">
+                    <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
                       연구팀 전체 개요
-                    </h2>
+                    </h1>
                   </div>
                 </div>
 

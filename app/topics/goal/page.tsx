@@ -444,10 +444,9 @@ export default function TopicsGoalPage() {
               RESEARCH GOALS
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
-              최종 목표와 단계별 목표를 통해
-            
-              연구 로드맵을 구체화합니다
+           <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
+              최종 목표와 단계별 목표 개관
+              
             </h1>
 
             <p

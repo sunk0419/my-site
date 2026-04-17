@@ -107,7 +107,7 @@ export default function TeamsSub2Page() {
               SUB-TEAM 2
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
               세부2 연구팀과 핵심 장비를 함께 소개합니다
             </h1>
 

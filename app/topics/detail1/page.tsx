@@ -188,7 +188,7 @@ export default function TopicsDetail1Page() {
               DETAIL 1 RESEARCH
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
               세부1 과제 연구내용
             </h1>
 

@@ -201,7 +201,7 @@ export default function TopicsOverviewPage() {
               RESEARCH TOPICS
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
               양자센싱 기반 바이오 · 의료
               
               응용 연구주제 개관

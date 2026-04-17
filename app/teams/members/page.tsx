@@ -27,7 +27,7 @@ export default function TeamsMembersPage() {
               RESEARCH MEMBERS
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
               연구실별 연구팀 구성을 소개합니다
             </h1>
 
