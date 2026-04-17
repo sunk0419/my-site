@@ -220,7 +220,7 @@ function FigureCard({ figure }: { figure: Figure }) {
    
     <figure className="overflow-hidden rounded-[26px] border border-zinc-200 bg-white shadow-sm">
       
-      <div className="px-10 pb-4 pt-5 md:px-5 md:pb-5 md:pt-6">
+      <div className="p-4 md:p-5">
         <Image
           src={figure.src}
           alt={figure.alt}
@@ -273,8 +273,8 @@ function SectionBlock({
           )}
         </div>
 
-        {section.figure && (
-          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+       {section.figure && (
+          <div className="mt-8 w-full">
             <FigureCard figure={section.figure} />
           </div>
         )}
