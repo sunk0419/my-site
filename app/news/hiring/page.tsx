@@ -127,10 +127,9 @@ export default function NewsRecruitmentPage() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              본 페이지는 연구실별 채용 공고와 모집 안내를 정리한 페이지입니다.
-              <br />
-              공고 제목, 모집 대상, 접수 기간, 진행 상태를 한눈에 확인할 수 있도록
-              목록형 구조로 구성했습니다.
+              채용 공고와 모집 안내를 정리한 페이지입니다. 많은 관심 및 지원 부탁드립니다.
+              
+              
             </p>
           </section>
 

@@ -45,8 +45,7 @@ export default function NewsPage() {
               style={{ wordBreak: "keep-all" }}
             >
              
-              아래 바로가기 카드를 통해 원하는 세부 탭으로 이동해 자세한 내용을
-              확인할 수 있습니다.
+              컨소시엄의 성과, 관련 소식 및 공고를 소개합니다. 
             </p>
           </section>
 

@@ -43,8 +43,8 @@ export default function TeamsPage() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              본 페이지는 컨소시엄을 구성하는 교수진, 연구실별 연구팀, 그리고
-              세부1·세부2 연구 흐름을 전체적으로 소개하는 페이지입니다.
+              컨소시엄을 구성하는 교수진, 연구실별 연구팀, 그리고
+              세부1·세부2 연구 흐름을 소개합니다.
               <br />
               각 연구팀의 역할과 연구 방향을 한눈에 살펴보고, 세부 탭에서 보다
               자세한 내용을 확인할 수 있도록 구성했습니다.

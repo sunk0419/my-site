@@ -43,16 +43,15 @@ export default function NewsSeminarPage() {
               SEMINAR & WORKSHOP
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
-              세미나 및 특강
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
+              세미나 및 특강 목록 소개
             </h1>
 
             <p
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              컨소시엄의 세미나, 특강, 워크숍 일정을 공지사항 형식으로 정리한
-              페이지입니다.
+              컨소시엄의 세미나, 특강, 워크숍 일정을 전해드립니다.
               <br />
               제목을 클릭하면 행사 소개와 세부 내용을 확인할 수 있습니다.
             </p>

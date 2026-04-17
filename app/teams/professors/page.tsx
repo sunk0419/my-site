@@ -35,9 +35,9 @@ export default function TeamsProfessorsPage() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              컨소시엄에 참여하는 교수진의 소속, 전문분야, 참여 세부과제를 한눈에
-              살펴볼 수 있는 페이지입니다. <br /> 각 연구자의 상세 역할과 장비 구성은
-              세부 연구팀 페이지에서 확인할 수 있습니다.
+              컨소시엄에 참여하는 교수진의 소속, 전문분야, 참여 세부과제를 소개합니다. 
+              <br /> 
+              각 연구자의 상세 역할과 장비 구성은 세부 연구팀 페이지에서 확인할 수 있습니다.
             </p>
           </section>
 
