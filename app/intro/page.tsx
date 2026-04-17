@@ -217,19 +217,20 @@ function PointCard({ text }: { text: string }) {
 
 function FigureCard({ figure }: { figure: Figure }) {
   return (
-   
-    <figure className="overflow-hidden rounded-[26px] border border-zinc-200 bg-white shadow-sm">
-      
+    <figure className="w-full overflow-hidden rounded-[26px] border border-zinc-200 bg-white shadow-[0_10px_24px_rgba(15,23,42,0.08)]">
       <div className="p-4 md:p-5">
-        <Image
-          src={figure.src}
-          alt={figure.alt}
-          width={1600}
-          height={1000}
-          className="h-auto w-full rounded-[18px] object-cover"
-        />
+        <div className="overflow-hidden rounded-[18px] border border-zinc-100 bg-zinc-50">
+          <Image
+            src={figure.src}
+            alt={figure.alt}
+            width={1600}
+            height={1000}
+            className="block h-auto w-full object-contain"
+          />
+        </div>
       </div>
-      <figcaption className="border-t border-zinc-200 bg-white px-5 py-3 text-sm text-zinc-500">
+
+      <figcaption className="border-t border-zinc-200 bg-white px-5 py-3 text-sm font-medium text-zinc-500">
         {figure.caption}
       </figcaption>
     </figure>
@@ -247,8 +248,8 @@ function SectionBlock({
     <SectionShell>
       <SectionHeader label={section.label} number={number} />
 
-      <div className="grid gap-10 lg:grid-cols-[1.02fr_0.98fr] lg:items-start lg:gap-10">
-        <div>
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.08fr)_minmax(320px,0.92fr)] lg:items-start">
+        <div className="min-w-0">
           <h2
             className="text-3xl font-semibold tracking-tight text-zinc-950 md:text-[2.25rem] md:leading-[1.2]"
             style={{ fontFamily: DISPLAY_FONT }}
@@ -257,25 +258,25 @@ function SectionBlock({
           </h2>
 
           <div className="mt-6 space-y-4 text-[15px] leading-8 text-zinc-600 md:text-[16px]">
-          {section.body.map((paragraph) => (
-            <p key={paragraph} className="whitespace-pre-line">
-              {paragraph}
-            </p>
-          ))}
+            {section.body.map((paragraph) => (
+              <p key={paragraph} className="whitespace-pre-line">
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </div>
 
-          {section.points && (
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              {section.points.map((point) => (
-                <PointCard key={point} text={point} />
-              ))}
-            </div>
-          )}
-        </div>
-
-       {section.figure && (
-          <div className="mt-8 w-full">
+        {section.figure && (
+          <div className="w-full self-start">
             <FigureCard figure={section.figure} />
+          </div>
+        )}
+
+        {section.points && (
+          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
+            {section.points.map((point) => (
+              <PointCard key={point} text={point} />
+            ))}
           </div>
         )}
       </div>
