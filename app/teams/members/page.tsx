@@ -35,8 +35,7 @@ export default function TeamsMembersPage() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-               컨소시엄에 참여하는 각 연구실의 연구진과 학생 구성원을 연구실별로 정리한
-              페이지입니다. 
+               컨소시엄에 참여하는 각 연구실의 연구진과 학생 구성원을 연구실별로 소개합니다.
               <br />
               주요 참여 인력과 연구 주제를 함께 살펴보며 연구팀의 구성과
               특징을 한눈에 확인할 수 있습니다.

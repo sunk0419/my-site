@@ -23,7 +23,7 @@ export default function IntroGreetingPage() {
               DIRECTOR&apos;S MESSAGE
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[1.12]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
               총괄책임자 소개 및 인사말
             </h1>
 

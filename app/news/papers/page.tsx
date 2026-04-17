@@ -140,9 +140,8 @@ export default function NewsPapersPage() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              본 페이지는 컨소시엄의 주요 논문과 출판 성과를 카드 형식으로 정리한 페이지입니다.
-              <br />
-            
+              본 페이지는 컨소시엄의 주요 논문과 출판 성과를 소개합니다. <br /> PDF를 다운받아 더 자세히 보실 수 있습니다.
+              
             </p>
           </section>
 

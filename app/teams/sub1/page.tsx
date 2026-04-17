@@ -109,7 +109,7 @@ export default function TeamsSub1Page() {
               className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
               style={{ wordBreak: "keep-all" }}
             >
-              세부1 연구팀의 연구 방향과 참여 교수진, 핵심 장비 및 연구 흐름을 한눈에 살펴볼 수 있는 페이지입니다.
+              세부1 연구팀의 연구 방향과 참여 교수진, 핵심 장비 및 연구 흐름을 소개합니다.
             </p>
           </section>
 
