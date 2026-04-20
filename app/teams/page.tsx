@@ -210,22 +210,22 @@ export default function TeamsPage() {
                   
 
                   <div className="mt-4 grid gap-x-6 gap-y-4 md:grid-cols-3">
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       고려대학교 <br /> 이동헌 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       고려대학교 <br /> 최원식 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       육군사관학교 <br /> 정근홍 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       KRISS <br /> 심정현 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       UNIST <br /> 김제형 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
                       조선대학교 <br /> 명노준 연구팀
                     </span>
                   </div>
