@@ -62,7 +62,7 @@ export default function TeamsPage() {
                     <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
                       OVERVIEW
                     </p>
-                    <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-black md:text-5xl md:leading-[1.15]">
+                    <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-black md:text-4xl md:leading-[1.15]">
                       연구팀 전체 개요
                     </h1>
                   </div>
@@ -210,23 +210,23 @@ export default function TeamsPage() {
                   
 
                   <div className="mt-4 grid gap-x-6 gap-y-4 md:grid-cols-3">
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      고려대학교 이동헌 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      고려대학교 <br /> 이동헌 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      고려대학교 최원식 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      고려대학교 <br /> 최원식 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      육군사관학교 정근홍 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      육군사관학교 <br /> 정근홍 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      KRISS 심정현 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      KRISS <br /> 심정현 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      UNIST 김제형 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      UNIST <br /> 김제형 연구팀
                     </span>
-                    <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">
-                      조선대학교 명노준 연구팀
+                    <span className="rounded-full bg-zinc-100 px-4 py-1 text-center font-semibold text-zinc-700">
+                      조선대학교 <br /> 명노준 연구팀
                     </span>
                   </div>
 
