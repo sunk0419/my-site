@@ -54,7 +54,7 @@ export default function TeamsProfessorsPage() {
                       style={{ width: "120px" }}
                     >
                       <img
-                        src="/teams/sub1/prof-Lee.jpg"
+                        src="/teams/sub1/prof-lee.jpg"
                         alt="이동헌 교수 사진"
                         className="block h-auto w-full"
                       />
@@ -256,7 +256,7 @@ export default function TeamsProfessorsPage() {
                       style={{ width: "120px" }}
                     >
                       <img
-                        src="/teams/sub2/prof-Sim.png"
+                        src="/teams/sub2/prof-sim.png"
                         alt="심정현 교수 사진"
                         className="block h-auto w-full"
                       />
@@ -320,7 +320,7 @@ export default function TeamsProfessorsPage() {
                       style={{ width: "120px" }}
                     >
                       <img
-                        src="/teams/sub2/prof-Kim.jpg"
+                        src="/teams/sub2/prof-kim.jpg"
                         alt="김제형 교수 사진"
                         className="block h-auto w-full"
                       />

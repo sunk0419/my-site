@@ -207,7 +207,7 @@ export default function TeamsSub1Page() {
                       style={{ width: "130px" }}
                     >
                       <img
-                        src="/teams/sub1/prof-Lee.jpg"
+                        src="/teams/sub1/prof-lee.jpg"
                         alt="이동헌 교수 사진"
                         className="block h-auto w-full"
                       />
@@ -464,7 +464,7 @@ export default function TeamsSub1Page() {
                       style={{ width: "130px" }}
                     >
                       <img
-                        src="/teams/sub1/prof-Choi.jpg"
+                        src="/teams/sub1/prof-choi.jpg"
                         alt="최원식 교수 사진"
                         className="block h-auto w-full"
                       />
@@ -714,7 +714,7 @@ export default function TeamsSub1Page() {
                       style={{ width: "130px" }}
                     >
                       <img
-                        src="/teams/sub1/prof-Jung.jpg"
+                        src="/teams/sub1/prof-jung.jpg"
                         alt="정근홍 교수 사진"
                         className="block h-auto w-full"
                       />

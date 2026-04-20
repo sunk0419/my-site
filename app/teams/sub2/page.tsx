@@ -215,7 +215,7 @@ export default function TeamsSub2Page() {
                       style={{ width: "130px" }}
                     >
                       <img
-                        src="/teams/sub2/prof-Sim.png"
+                        src="/teams/sub2/prof-sim.png"
                         alt="심정현 교수 사진"
                         className="block h-auto w-full"
                       />
@@ -467,7 +467,7 @@ export default function TeamsSub2Page() {
                       style={{ width: "130px" }}
                     >
                       <img
-                        src="/teams/sub2/prof-Kim.jpg"
+                        src="/teams/sub2/prof-kim.jpg"
                         alt="김제형 교수 사진"
                         className="block h-auto w-full"
                       />
