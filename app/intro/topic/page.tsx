@@ -145,7 +145,7 @@ export default function IntroTopicPage() {
               RESEARCH TOPICS
             </p>
 
-            <h1 className="mt-4 max-w-5xl text-4xl font-semibold tracking-tight text-white md:text-6xl md:leading-[100%]">
+            <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-6xl md:leading-[100%]">
               나노 MRI와 소형 양자 심자도로 여는
               차세대 양자센서 응용
             </h1>

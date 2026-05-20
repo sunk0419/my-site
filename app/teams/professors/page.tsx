@@ -246,7 +246,7 @@ export default function TeamsProfessorsPage() {
                   </div>
                 </div>
 
-
+{/* 심정현 교수님 */}
 
 
                 <div className="rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)]">
@@ -313,6 +313,9 @@ export default function TeamsProfessorsPage() {
                   </div>
                 </div>
 
+
+                {/* 김제형 교수님 */}
+
                 <div className="rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)]">
                   <div className="flex items-start gap-5">
                     <div
@@ -350,7 +353,7 @@ export default function TeamsProfessorsPage() {
                       className="text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (컨소시엄에서의 역할 한줄 소개)
+                     세부2에서 다이아몬드 양자 소재와 광섬유 플랫폼을 결합한 초소형 프루브타입의 양자센서를 개발하고 있습니다. 
                     </p>
                   </div>
 
@@ -376,6 +379,11 @@ export default function TeamsProfessorsPage() {
                     </Link>
                   </div>
                 </div>
+
+
+
+{/* 명노준 교수님 */}
+
 
                 <div className="rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)]">
                   <div className="flex items-start gap-5">

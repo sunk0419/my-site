@@ -452,11 +452,13 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <p className="mt-4 text-[15px] leading-7 text-zinc-500">
-                      UNIST 물리학과 /  (연구실 이름)
+                      울산과학기술원 / Quantum Photonic Integrated  Device (QUPID) Lab. 
+
                     </p>
 
                     <p className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]">
-                      연락처 - (이메일 주소)
+                      연락처 - 052-217-2212 / jehyungkim@unist.ac.kr / qupid.unist.ac.kr
+
                     </p>
 
                   </div>
@@ -480,14 +482,14 @@ export default function TeamsSub2Page() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (교수님의 한마디)
+                    : 체내 삽입이 가능한 내시경 형태의 양자집적 스핀/광소자 개발을 통해 의료진단용 양자 센서를 구현하고자 합니다. 
                   </p>
 
                   <p
                     className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (컨소시엄에서의 역할)
+                    세부2에서 다이아몬드 양자 소재와 광섬유 플랫폼을 결합한 초소형 프루브타입의 양자센서를 개발하고 있습니다. 
                   </p>
                 </div>
 
@@ -509,7 +511,7 @@ export default function TeamsSub2Page() {
                         소속
                       </p>
                       <p className="text-[15px] leading-8 text-zinc-700">
-                        UNIST 물리학과
+                       울산과학기술원 물리학과 
                       </p>
                     </div>
 
@@ -521,7 +523,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        광심유 집적형 다이아몬드 양자센서 개발
                       </p>
                     </div>
 
@@ -533,7 +535,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        세부2 참여 / 실용 양자 센싱 플랫폼 개발  
                       </p>
                     </div>
 
@@ -545,7 +547,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        Solid-state quantum emitters, Hybrid integration, Fiber-based quantum sensor
                       </p>
                     </div>
 
@@ -557,7 +559,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        의료진단용, 산업현장용 양자 센서 개발 
                       </p>
                     </div>
                   </div>
@@ -572,18 +574,17 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
-                      (장비이름)
+                      고자기장 무진동 극저온 시스템
                     </h3>
 
-                    <p className="mt-3 text-sm font-semibold text-blue-700">
-                      (장비의 역할)
-                    </p>
+                  
 
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (장비에 대한 한줄 설명)
+                      초전도 자석을 활용한 고자기장 인가가 가능하고, 외부 액체 냉매를 사용하지 않고 컴프레서를 활용하여 열교환 방식으로 장기 연속 구동이 가능합니다. 내부에 정밀 scan stage 와 현미경 시스템이 결합되어 있어 고분해능의 이미징과 양자광학 실험 수행이 가능합니다.  
+
                     </p>
                   </div>
 
@@ -592,7 +593,7 @@ export default function TeamsSub2Page() {
                   </div>
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
                       src="/teams/sub2/-.png"
@@ -601,27 +602,22 @@ export default function TeamsSub2Page() {
                     />
                   </div>
 
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/-.png"
-                      alt="실험 장비 사진"
-                      className="block h-auto w-full object-cover"
-                    />
-                  </div>
+                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
                   <div>
                     <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
-                        장비 설명
+                        장비 역할 설명
                       </h4>
 
                       <p
                         className="mt-4 text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        (장비에 대한 상세 설명; 구성 요소, 운용 방식, 간단 원리 등)
+                        세부2 연구팀의 고자기장 무진동 극저온 장비(Attodry2100)은 9T 의 고자기장과 1.6 K 정도의 극저온 환경을 제공하여, 다양한 고체 시료의 스핀 특성 분석과 광특성 분석을 가능케 하는 장비입니다. 해당 장비를 활용하여 고체 점결함 소재 및 소자에 대한 특성 분석 및 제어 연구에 활용할 예정입니다.
+
                       </p>
                     </div>
 
@@ -632,14 +628,10 @@ export default function TeamsSub2Page() {
 
                       <div className="mt-4 flex flex-wrap gap-2">
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
+                          단일 고체 양자구조(점결함, 양자점, 이차원 물질) 들에 대한 다차원 분광 실험 및 양자 스핀/광학 실험 수행
+
                         </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                         -
-                        </span>
+                       
                       </div>
                     </div>
                   </div>
