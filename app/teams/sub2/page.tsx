@@ -176,7 +176,6 @@ export default function TeamsSub2Page() {
 
            {/* 심정현교수님 */}
 
-
            <section
   id="prof-sim"
   className="scroll-mt-32 rounded-[34px] bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 p-px shadow-lg"
@@ -215,9 +214,13 @@ export default function TeamsSub2Page() {
                       className="overflow-hidden rounded-[10px] border border-zinc-300 bg-zinc-100 shadow-[0_8px_18px_rgba(15,23,42,0.12)]"
                       style={{ width: "130px" }}
                     >
-                      <img
+                      <Image
                         src="/teams/sub2/prof-sim.png"
                         alt="심정현 교수 사진"
+                        width={260}
+                        height={320}
+                        sizes="130px"
+                        quality={95}
                         className="block h-auto w-full"
                       />
                     </div>
@@ -344,17 +347,25 @@ export default function TeamsSub2Page() {
 
                 <div className="mt-4 grid gap-4 md:grid-cols-2">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/-.png"
                       alt="장비사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/-.png"
                       alt="장비사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
@@ -426,7 +437,6 @@ export default function TeamsSub2Page() {
           </section>
 
 {/* 김제형 교수님 */}
-
 
 <section
   id="prof-kim"
@@ -580,8 +590,6 @@ export default function TeamsSub2Page() {
                       고자기장 무진동 극저온 시스템
                     </h3>
 
-                  
-
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
@@ -590,8 +598,6 @@ export default function TeamsSub2Page() {
 
                     </p>
                   </div>
-
-                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
@@ -606,7 +612,6 @@ export default function TeamsSub2Page() {
                       className="block h-auto w-full object-contain"
                     />
                   </div>
-                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -635,7 +640,6 @@ export default function TeamsSub2Page() {
                           단일 고체 양자구조(점결함, 양자점, 이차원 물질) 들에 대한 다차원 분광 실험 및 양자 스핀/광학 실험 수행
 
                         </span>
-                       
                       </div>
                     </div>
                   </div>
@@ -646,16 +650,13 @@ export default function TeamsSub2Page() {
                     </h4>
 
                     <ul className="mt-4 space-y-4">
-                      
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
                         핵심 구성 - 고자기장, 극저온 챔버, 정밀 나노 포지셔닝 insert with 고배율 극저온 대물렌즈, home-made 공초점 현미경 이미징 시스템 
 
-
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
@@ -673,8 +674,6 @@ export default function TeamsSub2Page() {
                       파장 가변 레이저 시스템 및 단광자 검출 시스템
                     </h3>
 
-                  
-
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
@@ -683,37 +682,44 @@ export default function TeamsSub2Page() {
                       고체 양자구조의 에너지가 일정하지 않은 특성에 대응하기 위해 여기 레이저의 파장 또한 제어를 통해 양자구조에 최적회 된 여기광을 사용할 수 있도록 합니다. 또한, 초전도 나노선 기반의 단광자 검출기는 30 Hz 이하의 낮은 dark count, 20 ps 정도의 빠른 response time, 90% 이상의 높은 단광자 측정효율을 갖습니다. 
                     </p>
                   </div>
-
-                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-2">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/kim_eq2.png"
                       alt="실험 장비 사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/kim_eq4.png"
                       alt="실험 장비 사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
-
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/kim_eq3.png"
                       alt="실험 장비 사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
-
-                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -742,7 +748,6 @@ export default function TeamsSub2Page() {
                           단일 고체 양자구조(점결함, 양자점, 이차원 물질) 들에 대한 광제어 및 광측정 실험 수행
 
                         </span>
-                       
                       </div>
                     </div>
                   </div>
@@ -753,16 +758,13 @@ export default function TeamsSub2Page() {
                     </h4>
 
                     <ul className="mt-4 space-y-4">
-                      
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
                         핵심 구성 - 레이저 헤드, 컨틀로러, 오실레이터, 0.7 K 폐사이클 저온 냉각장치, 4 ch 초전도 단광지 칩
 
-
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
@@ -780,8 +782,6 @@ export default function TeamsSub2Page() {
 
                     </h3>
 
-                  
-
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
@@ -790,20 +790,20 @@ export default function TeamsSub2Page() {
 
                     </p>
                   </div>
-
-                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub2/kim_eq5.jpg"
                       alt="실험 장비 사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
-
-                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -832,7 +832,6 @@ export default function TeamsSub2Page() {
                           상온동작 고체 양자구조들에 대한 고분해능 형광 이미징 측정 및 Optically Detected Magnetic Resonance (ODMR) 특성 분석
 
                         </span>
-                       
                       </div>
                     </div>
                   </div>
@@ -843,7 +842,6 @@ export default function TeamsSub2Page() {
                     </h4>
 
                     <ul className="mt-4 space-y-4">
-                      
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
@@ -851,7 +849,6 @@ export default function TeamsSub2Page() {
                         핵심 구성 - 정밀 나노포지셔닝 stage, high NA 기반 고분해능 공초점 현미경, 단광자 검출기, 시그널 발생기 및 증폭기
 
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
@@ -902,9 +899,13 @@ export default function TeamsSub2Page() {
                       className="overflow-hidden rounded-[10px] border border-zinc-300 bg-zinc-100 shadow-[0_8px_18px_rgba(15,23,42,0.12)]"
                       style={{ width: "130px" }}
                     >
-                      <img
+                      <Image
                         src="/teams/sub2/prof-myeong.jpg"
                         alt="명노준 교수 사진"
+                        width={260}
+                        height={320}
+                        sizes="130px"
+                        quality={95}
                         className="block h-auto w-full"
                       />
                     </div>
@@ -1030,17 +1031,25 @@ export default function TeamsSub2Page() {
 
                 <div className="mt-4 grid gap-4 md:grid-cols-2">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub1/-.png"
                       alt="실험장비사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                    <Image
                       src="/teams/sub1/-.png"
                       alt="실험장비사진"
+                      width={1040}
+                      height={780}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
                       className="block h-auto w-full object-cover"
                     />
                   </div>
