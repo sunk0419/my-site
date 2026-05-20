@@ -343,7 +343,7 @@ export default function TeamsProfessorsPage() {
                       </p>
 
                       <p className="mt-2 text-[15px] leading-7 text-zinc-500">
-                        UNIST 물리학과
+                        울산과학기술원 물리학과 
                       </p>
                     </div>
                   </div>
@@ -412,7 +412,7 @@ export default function TeamsProfessorsPage() {
                       </p>
 
                       <p className="mt-2 text-[15px] leading-7 text-zinc-500">
-                        조선대학교 물리교육학과
+                        조선대학교 물리교육과
                       </p>
                     </div>
                   </div>
@@ -422,20 +422,21 @@ export default function TeamsProfessorsPage() {
                       className="text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (컨소시엄에서의 역할 한줄 소개)
+                      다이아몬드 NV 센터의 양자상태 이론 계산 및 기계학습/심층학습을 통한 데이터 분석과 물리 모델링을 통해 세부2 연구팀의 양자센싱 최적화 연구에 기여하고 있습니다.
+
                     </p>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
                     
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword1
+                      Quantum Interferometer
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword2
+                      Machine/Deep Learning
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword3
+                      Ab-Initio Calculations
                     </span>
                   </div>
 

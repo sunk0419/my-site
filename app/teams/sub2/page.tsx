@@ -596,10 +596,10 @@ export default function TeamsSub2Page() {
 
                 <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                   <img
-                    src="/teams/sub2/kim_eq1.png"
+                    src="/teams/sub2/kim_eq1.png?v=2"
                     alt="0.7 K 폐사이클 저온 냉각장치 사진"
-                    width="743"
-                    height="480"
+                    width={743}
+                    height={480}
                     loading="lazy"
                     decoding="async"
                     className="block h-auto w-full object-contain"
@@ -872,11 +872,13 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <p className="mt-4 text-[15px] leading-7 text-zinc-500">
-                      조선대학교 /  (연구실 이름)
+                      조선대학교 / Quantum Transport & Mesoscopic Physics Lab
+
                     </p>
                     
                     <p className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]">
-                      연락처 - (이메일 주소)
+                      연락처: 062-230-7376 / nmyoung@chosun.ac.kr
+
                     </p>
               
                   </div>
@@ -900,14 +902,16 @@ export default function TeamsSub2Page() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (교수님의 한마디)
+                    컨소시엄 유일의 이론 연구진으로서 세부2 연구팀은 물론 컨소시엄의 연구를 이론적으로 지원하고 있습니다.
+
                   </p>
 
                   <p
                     className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (컨소시엄에서의 역할)
+                    다이아몬드 NV 센터의 양자상태 이론 계산 및 기계학습/심층학습을 통한 데이터 분석과 물리 모델링을 통해 세부2 연구팀의 양자센싱 최적화 연구에 기여하고 있습니다.
+
                   </p>
                 </div>
 
@@ -929,7 +933,7 @@ export default function TeamsSub2Page() {
                         소속
                       </p>
                       <p className="text-[15px] leading-8 text-zinc-700">
-                        조선대학교 물리교육학과
+                        조선대학교 물리교육과
                       </p>
                     </div>
 
@@ -941,7 +945,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                       고체 기반 큐비트 플랫폼(점결함, 양자점  등) 양자상태 이론 연구 및 물리모형 기반 기계학습/심층학습
+
                       </p>
                     </div>
 
@@ -953,7 +958,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                       NV 센터 양자센싱 최적화, ML/DL 데이터 프로세싱, 양자 간섭계
+
                       </p>
                     </div>
 
@@ -965,7 +971,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        Quantum Interferometer, Quantum Sensing, Low-Dimensional Electronic Systems, Machine/Deep Learning, Ab-Initio Calculations
+
                       </p>
                     </div>
 
@@ -977,7 +984,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        물리정보 신경망(Physics-Informed NN)을 통한 양자이미징/신호 복원 및 최적화, 양자센싱 시뮬레이터 및 분석 도구 개발
+
                       </p>
                     </div>
                   </div>
@@ -992,56 +1000,47 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
-                      -
+                     병렬 클러스터 서버
                     </h3>
 
-                    <p className="mt-3 text-sm font-semibold text-blue-700">
-                      (장비의 역할)
-                    </p>
-
+                  
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (장비에 대한 한줄 설명)
+                      5개 노드 총 480개의 cpu를 활용한 병렬 컴퓨팅을 통해 제1원리 전자구조 계산 및 대규모 수치연산이 효율적으로 실행될 수 있도록 합니다. 이후 컴퓨팅 노드의 증설 및 gpu 추가를 통해 기계학습/심층학습을 위한 머신의 역할도 수행할 예정입니다.
+
                     </p>
                   </div>
 
-                  <div className="mb-4 rounded-2xl bg-blue-50 px-8 py-4 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부2 핵심 장비
-                  </div>
+                 
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub1/-.png"
+                      src="/teams/sub1/myeong_eq1.png"
                       alt="실험장비사진"
                       className="block h-auto w-full object-cover"
                     />
                   </div>
 
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub1/-.png"
-                      alt="실험장비사진"
-                      className="block h-auto w-full object-cover"
-                    />
-                  </div>
+                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
                   <div>
                     <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
-                        장비 설명
+                        장비 역할 설명
                       </h4>
 
                       <p
                         className="mt-4 text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        (장비에 대한 상세 설명; 구성 요소, 운용 방식, 간단 원리 등)
+                       세부2 연구팀의 병렬 클러스터 서버는 마스터 노드 1대, 컴퓨팅 노드 5대로 구성되어 있는 병렬 컴퓨팅용 클러스터 서버입니다. 이 장비를 활용하여 다이아몬드 NV 센터의 양자상태 준위의 제1원리 계산 및 대규모 양자 이미징의 기계학습/심층학습 모델개발 등을 연구할 예정입니다.
+
                       </p>
                     </div>
 
@@ -1052,13 +1051,13 @@ export default function TeamsSub2Page() {
 
                       <div className="mt-4 flex flex-wrap gap-2">
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
+                          제1원리 고체 전자구조 계산
                         </span>
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
+                          대용량 데이터 프로세싱
                         </span>
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                         -
+                        기계학습/심층학습 모델링
                         </span>
                       </div>
                     </div>
@@ -1074,24 +1073,129 @@ export default function TeamsSub2Page() {
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        측정 방식 · -
+                        운용 방식 - 서버 관리자가 사용자 계정관리를 통해 컨소시엄 내의 연구자들에게 서버 접근권한을 부여, 계정 사용자는 bash script를 통해 코딩된 프로그램을 병렬화해 컴퓨팅 노드 cpu 또는 gpu에 전송해 계산 실행, 계산 데이터는 서버 저장장치에 저장되고 필요시 ftp 등을 통해 외부로 전송
                       </li>
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        핵심 구성 · -
+                        핵심 구성 - 마스터 노드 1대, 컴퓨팅 노드 5대
+
                       </li>
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        주요 활용 · -
+                        주요 활용 - 양자 센싱 측정을 통한 이미지 또는 데이터의 수집 및 수치연산 실행, 추후 필요시 NAS 서버를 구축해 컨소시엄 내 자유로운 데이터 연동/공유 시스템 구축 예정
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                     워크스테이션 서버
+                    </h3>
+
+                  
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >128 코어 cpu를 활용한 멀티 프로세싱 또는 자체 병렬 컴퓨팅을 통해 복잡한 양자상태 다이나믹스 수치연산이 효율적으로 실행될 수 있도록 합니다.
+
+                    </p>
+                  </div>
+
+                 
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub1/myeong_eq2.png"
+                      alt="실험장비사진"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 역할 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       세부2 연구팀의 워크스테이션 서버는 128 코어 cpu가 장착된 고성능 워크스테이션 컴퓨터입니다. 이 장비를 활용하여 NV 센터의 양자상태 다이나믹스 수치 연산 및 시뮬레이션을 연구할 예정입니다.
+
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
+                          대규모 수치연산
+                        </span>
+                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
+                          python 프로그래밍
+                        </span>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        운용 방식 - 
+	                        서버 관리자가 사용자 계정관리를 통해 컨소시엄 내의 연구자들에게 서버 접근권한을 부여, 계정 사용자는 bash script를 통해 코딩된 프로그램을 cpu에 전송해 계산 실행, 계산 데이터는 서버 저장장치에 저장되고 필요시 ftp 등을 통해 외부로 전송
+
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        핵심 구성 - 128 코어 cpu
+
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        주요 활용 - 소규모 또는 중규모 데이터 프로세싱 연산, 병렬 컴퓨팅 또는 ML/DL 연산을 위한 테스트 코드 작성 및 성능 평가
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </section>
 
