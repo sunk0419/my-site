@@ -1,6 +1,7 @@
 import SiteFrame from "@/components/SiteFrame";
 import DetailPageShell from "@/components/DetailPageShell";
 import type { LucideIcon } from "lucide-react";
+import Image from "next/image";
 import {
   Users,
   Microscope,
@@ -464,14 +465,16 @@ export default function TeamsSub2Page() {
                   </div>
 
                   <div className="ml-auto flex-none">
-                    <div
-                      className="overflow-hidden rounded-[10px] border border-zinc-300 bg-zinc-100 shadow-[0_8px_18px_rgba(15,23,42,0.12)]"
-                      style={{ width: "130px" }}
-                    >
-                      <img
+                    <div className="overflow-hidden rounded-[10px] bg-white shadow-[0_8px_18px_rgba(15,23,42,0.10)]">
+                      <Image
                         src="/teams/sub2/prof-kim.jpg"
                         alt="김제형 교수 사진"
-                        className="block h-auto w-full"
+                        width={260}
+                        height={320}
+                        sizes="130px"
+                        quality={95}
+                        className="block h-auto w-[130px] object-cover"
+                        priority
                       />
                     </div>
                   </div>
@@ -588,20 +591,21 @@ export default function TeamsSub2Page() {
                     </p>
                   </div>
 
-                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부2 핵심 장비
-                  </div>
+                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[22px] bg-white">
+                    <Image
                       src="/teams/sub2/kim_eq1.png"
                       alt="실험 장비 사진"
-                      className="block h-auto w-full object-cover"
+                      width={1040}
+                      height={700}
+                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
+                      quality={95}
+                      className="block h-auto w-full object-contain"
                     />
                   </div>
-
                   
                 </div>
 
@@ -680,9 +684,7 @@ export default function TeamsSub2Page() {
                     </p>
                   </div>
 
-                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부2 핵심 장비
-                  </div>
+                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-3">
@@ -789,9 +791,7 @@ export default function TeamsSub2Page() {
                     </p>
                   </div>
 
-                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부2 핵심 장비
-                  </div>
+                  
                 </div>
 
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
