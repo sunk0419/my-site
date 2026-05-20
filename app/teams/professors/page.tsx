@@ -360,13 +360,13 @@ export default function TeamsProfessorsPage() {
                   <div className="mt-4 flex flex-wrap gap-2">
                     
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword1
+                     Solid-state quantum emitters
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword2
+                      Hybrid integration
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword3
+                      Fiber-based quantum sensor
                     </span>
                   </div>
 

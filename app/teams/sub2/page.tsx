@@ -594,18 +594,16 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-                <div className="mt-4">
-                  <div className="mx-auto w-full max-w-[743px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/kim_eq1.png"
-                      alt="0.7 K 폐사이클 저온 냉각장치 사진"
-                      width="743"
-                      height="480"
-                      loading="lazy"
-                      decoding="async"
-                      className="block h-auto w-full object-contain"
-                    />
-                  </div>
+                <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                  <img
+                    src="/teams/sub2/kim_eq1.png"
+                    alt="0.7 K 폐사이클 저온 냉각장치 사진"
+                    width="743"
+                    height="480"
+                    loading="lazy"
+                    decoding="async"
+                    className="block h-auto w-full object-contain"
+                  />
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -789,8 +787,7 @@ export default function TeamsSub2Page() {
                       decoding="async"
                       className="block h-auto w-full object-contain"
                     />
-                  </div>
-                  
+                  </div>                
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">

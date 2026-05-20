@@ -548,19 +548,19 @@ export default function TeamsMembersPage() {
                     LAB 05
                   </p>
                   <h2 className="mt-2 text-3xl font-semibold tracking-tight text-zinc-950 md:text-[2.25rem]">
-                    UNIST 김제형 연구팀
+                    울산과학기술원  김제형 연구팀
                   </h2>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    PI · 김제형 교수 / UNIST
+                    PI · 김제형 교수 / Quantum Photonic Integrated Devices (QUPID) Lab
                   </p>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명
+                    박사후연구원 3명
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    대학원생 3명
+                    대학원생 8명
                   </span>
                 </div>
               </div>
@@ -569,8 +569,8 @@ export default function TeamsMembersPage() {
                 className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                 style={{ wordBreak: "keep-all" }}
               >
-                UNIST 김제형 연구팀은 세부2 공동연구자로 참여하며 양자센서 기반
-                신호 처리와 소형 심자도 기술의 고도화에 기여하는 연구실입니다.
+                고체 양자 구조를 기반으로 높은 활용성의 광집적 양자 스핀/광소자 플랫폼 개발 연구를 수행합니다. 
+
               </p>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -579,68 +579,36 @@ export default function TeamsMembersPage() {
                     Postdoctoral Researcher
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    박사후연구원 01
+                    Dr. Jin Hee Lee 
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    postdoc01@unist.ac.kr
+                    jinheelee@unist.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Machine learning for signal recovery
+                     Fiber-integrated quantum sensor
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
+                    Ph.D candidate 
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 01
+                    Sangwoo Lee 
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student01@unist.ac.kr
+                    aeternus96@unist.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Signal processing for quantum magnetometry
+                      Cavity-enhanced quantum devices
                     </p>
                   </div>
                 </div>
 
-                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
-                  </p>
-                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 02
-                  </h3>
-                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student02@unist.ac.kr
-                  </p>
-                  <div className="mt-5 border-t border-zinc-200 pt-5">
-                    <p className="text-[15px] leading-8 text-zinc-700">
-                      AI-based waveform prediction and recovery
-                    </p>
-                  </div>
-                </div>
-
-                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
-                  </p>
-                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 03
-                  </h3>
-                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student03@unist.ac.kr
-                  </p>
-                  <div className="mt-5 border-t border-zinc-200 pt-5">
-                    <p className="text-[15px] leading-8 text-zinc-700">
-                      Data-driven analysis of MCG signals
-                    </p>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </section>
