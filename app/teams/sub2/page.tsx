@@ -594,19 +594,18 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-1">
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[22px] bg-white">
-                    <Image
-                      src="/teams/sub2/kim_eq1.jpg"
-                      alt="실험 장비 사진"
-                      width={1040}
-                      height={700}
-                      sizes="(min-width: 768px) 520px, calc(100vw - 48px)"
-                      quality={95}
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[743px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq1.png"
+                      alt="0.7 K 폐사이클 저온 냉각장치 사진"
+                      width="743"
+                      height="480"
+                      loading="lazy"
+                      decoding="async"
                       className="block h-auto w-full object-contain"
                     />
                   </div>
-                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -687,19 +686,19 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-<div className="mt-4">
-  <div className="mx-auto w-full overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-    <img
-      src="/teams/sub2/kim_eq7.png"
-      alt="파장 가변 레이저 시스템 및 단광자 검출 시스템 사진"
-      width="1428"
-      height="474"
-      loading="lazy"
-      decoding="async"
-      className="block h-auto w-full object-contain"
-    />
-  </div>
-</div>
+                <div className="mt-4">
+                  <div className="mx-auto w-full overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq7.png"
+                      alt="파장 가변 레이저 시스템 및 단광자 검출 시스템 사진"
+                      width="1428"
+                      height="474"
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
                   <div>
@@ -782,12 +781,15 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/kim_eq5.jpg"
-                      alt="실험 장비 사진"
-                      className="block h-auto w-full object-cover"
+                      src="/teams/sub2/kim_eq5.png"
+                      alt="고체 양자구조 광제어 및 광측정 실험 장비 사진"
+                      width="642"
+                      height="448"
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
                     />
                   </div>
-
                   
                 </div>
 
