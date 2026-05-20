@@ -588,7 +588,7 @@ export default function TeamsSub2Page() {
                     </p>
                   </div>
 
-                  <div className="mb-4 rounded-2xl bg-blue-50 px-8 py-4 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
+                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
                     세부2 핵심 장비
                   </div>
                 </div>
@@ -596,7 +596,7 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/-.png"
+                      src="/teams/sub2/kim_eq1.png"
                       alt="실험 장비 사진"
                       className="block h-auto w-full object-cover"
                     />
@@ -642,28 +642,222 @@ export default function TeamsSub2Page() {
                     </h4>
 
                     <ul className="mt-4 space-y-4">
+                      
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        측정 방식 · -
+                        핵심 구성 - 고자기장, 극저온 챔버, 정밀 나노 포지셔닝 insert with 고배율 극저온 대물렌즈, home-made 공초점 현미경 이미징 시스템 
+
+
                       </li>
-                      <li
-                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        핵심 구성 · -
-                      </li>
-                      <li
-                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        주요 활용 · -
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
               </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      파장 가변 레이저 시스템 및 단광자 검출 시스템
+                    </h3>
+
+                  
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      파장 가변형 연속발진 레이저 (Toptica)와 함께 파장가변형 피코초 펄스레이저 (Mira900) 는 고체 양자 구조의 상태를 광학적으로 제어할 수 있는 중요한 툴입니다. 
+                      고체 양자구조의 에너지가 일정하지 않은 특성에 대응하기 위해 여기 레이저의 파장 또한 제어를 통해 양자구조에 최적회 된 여기광을 사용할 수 있도록 합니다. 또한, 초전도 나노선 기반의 단광자 검출기는 30 Hz 이하의 낮은 dark count, 20 ps 정도의 빠른 response time, 90% 이상의 높은 단광자 측정효율을 갖습니다. 
+                    </p>
+                  </div>
+
+                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
+                    세부2 핵심 장비
+                  </div>
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-3">
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq2.png"
+                      alt="실험 장비 사진"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq3.png"
+                      alt="실험 장비 사진"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq4.png"
+                      alt="실험 장비 사진"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 역할 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        세부2 연구팀은 다양한 고체 양자 구조 광제어 및 측정을 위한 레이저 광원과 단광자 검출기를 보유하고 있습니다. 해당 시스템은 고체 양자 구조를 여기시키고, 초기화하며, 광제어하는 역할을 합니다. 또한 고감도 단광자 검출기를 통해 광신호를 높은 감도로 측정하여 높은 수준의 양자광 및 양자센싱 실험을 가능케 합니다. 
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
+                          단일 고체 양자구조(점결함, 양자점, 이차원 물질) 들에 대한 광제어 및 광측정 실험 수행
+
+                        </span>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        핵심 구성 - 레이저 헤드, 컨틀로러, 오실레이터, 0.7 K 폐사이클 저온 냉각장치, 4 ch 초전도 단광지 칩
+
+
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      상온 공초점 ODMR 분석 시스템
+
+                    </h3>
+
+                  
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      20 nm 정도의 위치 분해능을 가진 정밀 스테이지와 고분해능 광학시스템, 단광자 검출 및 마이크로파 인가 시스템을 결합하여 고체 점결함에 대한 고분해능의 형광 이미징과 스핀특성 분석 실험 수행이 가능합니다.  
+
+                    </p>
+                  </div>
+
+                  <div className="mb-2 rounded-2xl bg-blue-50 px-8 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
+                    세부2 핵심 장비
+                  </div>
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq5.png"
+                      alt="실험 장비 사진"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 역할 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        세부2 연구팀의 상온 공초점 ODMR 측정 시스템은 정밀 스캔 스테이지와 공초점 현미경 시스템 그리고 광자 상관관계 측정 시스템이 결합되어, 다양한 고체 양자구조에 대한 정밀 형광 이미지 측정을 가능케 하고, 마이크로파 인가를 통해 스핀 상태에 따른 형광 세기의 변화를 관찰하는 장비입니다. 
+                        해당 장비를 활용하여 상온 동작이 가능한 고체 점결함 소재 및 소자에 대한 특성 분석 및 제어 연구에 활용할 예정입니다.
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
+                          상온동작 고체 양자구조들에 대한 고분해능 형광 이미징 측정 및 Optically Detected Magnetic Resonance (ODMR) 특성 분석
+
+                        </span>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        핵심 구성 - 정밀 나노포지셔닝 stage, high NA 기반 고분해능 공초점 현미경, 단광자 검출기, 시그널 발생기 및 증폭기
+
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </section>
 
