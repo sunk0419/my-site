@@ -458,7 +458,7 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <p className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]">
-                      연락처 - 052-217-2212 / jehyungkim@unist.ac.kr / qupid.unist.ac.kr
+                      연락처: 052-217-2212 / jehyungkim@unist.ac.kr / qupid.unist.ac.kr
 
                     </p>
 
@@ -485,7 +485,7 @@ export default function TeamsSub2Page() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    : 체내 삽입이 가능한 내시경 형태의 양자집적 스핀/광소자 개발을 통해 의료진단용 양자 센서를 구현하고자 합니다. 
+                    체내 삽입이 가능한 내시경 형태의 양자집적 스핀/광소자 개발을 통해 의료진단용 양자 센서를 구현하고자 합니다. 
                   </p>
 
                   <p
@@ -597,7 +597,7 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[22px] bg-white">
                     <Image
-                      src="/teams/sub2/kim_eq1.png"
+                      src="/teams/sub2/kim_eq1.jpg"
                       alt="실험 장비 사진"
                       width={1040}
                       height={700}
@@ -687,7 +687,7 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-3">
+                <div className="mt-4 grid gap-4 md:grid-cols-2">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
                       src="/teams/sub2/kim_eq2.png"
@@ -698,7 +698,7 @@ export default function TeamsSub2Page() {
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/kim_eq3.png"
+                      src="/teams/sub2/kim_eq4.png"
                       alt="실험 장비 사진"
                       className="block h-auto w-full object-cover"
                     />
@@ -707,7 +707,7 @@ export default function TeamsSub2Page() {
 
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/kim_eq4.png"
+                      src="/teams/sub2/kim_eq3.png"
                       alt="실험 장비 사진"
                       className="block h-auto w-full object-cover"
                     />
@@ -797,7 +797,7 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/kim_eq5.png"
+                      src="/teams/sub2/kim_eq5.jpg"
                       alt="실험 장비 사진"
                       className="block h-auto w-full object-cover"
                     />
