@@ -1019,7 +1019,7 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub1/myeong_eq1.png"
+                      src="/teams/sub2/myeong_eq1.png"
                       alt="실험장비사진"
                       className="block h-auto w-full object-cover"
                     />
@@ -1120,7 +1120,7 @@ export default function TeamsSub2Page() {
                 <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub1/myeong_eq2.png"
+                      src="/teams/sub2/myeong_eq2.png"
                       alt="실험장비사진"
                       className="block h-auto w-full object-cover"
                     />
