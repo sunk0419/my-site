@@ -687,61 +687,19 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/kim_eq2.webp"
-                      srcSet="
-                        /teams/sub2/kim_eq2.webp 520w,
-                        /teams/sub2/kim_eq2@2x.webp 1040w
-                      "
-                      sizes="(max-width: 768px) 100vw, 520px"
-                      width="1040"
-                      height="780"
-                      alt="실험 장비 사진"
-                      loading="lazy"
-                      decoding="async"
-                      className="block h-auto w-full object-contain"
-                      style={{ imageRendering: "auto" }}
-                    />
-                  </div>
-
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/kim_eq4.webp"
-                      srcSet="
-                        /teams/sub2/kim_eq4.webp 520w,
-                        /teams/sub2/kim_eq4@2x.webp 1040w
-                      "
-                      sizes="(max-width: 768px) 100vw, 520px"
-                      width="1040"
-                      height="780"
-                      alt="실험 장비 사진"
-                      loading="lazy"
-                      decoding="async"
-                      className="block h-auto w-full object-contain"
-                      style={{ imageRendering: "auto" }}
-                    />
-                  </div>
-
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/kim_eq3.webp"
-                      srcSet="
-                        /teams/sub2/kim_eq3.webp 520w,
-                        /teams/sub2/kim_eq3@2x.webp 1040w
-                      "
-                      sizes="(max-width: 768px) 100vw, 520px"
-                      width="1040"
-                      height="780"
-                      alt="실험 장비 사진"
-                      loading="lazy"
-                      decoding="async"
-                      className="block h-auto w-full object-contain"
-                      style={{ imageRendering: "auto" }}
-                    />
-                  </div>
-                </div>
+<div className="mt-4">
+  <div className="mx-auto w-full overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+    <img
+      src="/teams/sub2/kim_eq7.png"
+      alt="파장 가변 레이저 시스템 및 단광자 검출 시스템 사진"
+      width="1428"
+      height="474"
+      loading="lazy"
+      decoding="async"
+      className="block h-auto w-full object-contain"
+    />
+  </div>
+</div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
                   <div>
