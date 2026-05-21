@@ -489,10 +489,10 @@ export default function TeamsPage() {
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      박사후연구원 1명
+                      박사후연구원 3명
                     </span>
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      대학원생 3명
+                      대학원생 8명
                     </span>
                   </div>
                 </div>

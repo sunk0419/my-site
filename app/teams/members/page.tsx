@@ -436,7 +436,7 @@ export default function TeamsMembersPage() {
                     박사후연구원 1명
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    대학원생 1명
+                    대학원생 2명
                   </span>
                 </div>
               </div>
