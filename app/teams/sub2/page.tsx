@@ -109,7 +109,7 @@ export default function TeamsSub2Page() {
             </p>
 
             <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
-              세부2 연구팀과 핵심 장비를 함께 소개합니다
+              세부2 연구팀 & 핵심 장비 소개
             </h1>
 
             <p
@@ -594,16 +594,18 @@ export default function TeamsSub2Page() {
                   
                 </div>
 
-                <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                  <img
-                    src="/teams/sub2/kim_eq1.png?v=2"
-                    alt="0.7 K 폐사이클 저온 냉각장치 사진"
-                    width={743}
-                    height={480}
-                    loading="lazy"
-                    decoding="async"
-                    className="block h-auto w-full object-contain"
-                  />
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[420px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/kim_eq1.png?v=3"
+                      alt="0.7 K 폐사이클 저온 냉각장치 사진"
+                      width={743}
+                      height={480}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">

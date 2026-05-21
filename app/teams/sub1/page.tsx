@@ -102,7 +102,7 @@ export default function TeamsSub1Page() {
             </p>
 
             <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
-              세부1 연구팀과 핵심 장비를 함께 소개합니다
+              세부1 연구팀 & 핵심 장비 소개
             </h1>
 
             <p
@@ -881,7 +881,10 @@ export default function TeamsSub1Page() {
 
                       <div className="mt-4 flex flex-wrap gap-2">
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          초분극 (Hyperpolarization) 연구 (PHIP, SABRE 등), 핵자기공명 (Nuclear Magnetic Resonance) 분광법 감도 향상
+                          초분극 (Hyperpolarization) 연구 (PHIP, SABRE 등)
+                        </span>
+                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
+                          핵자기공명 (Nuclear Magnetic Resonance) 분광법 감도 향상
                         </span>
                         <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
                           휴대용(Portable) 스핀 이성질체 변환 시스템 구축
