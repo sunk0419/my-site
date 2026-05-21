@@ -28,7 +28,7 @@ export default function TeamsProfessorsPage() {
             </p>
 
             <h1 className="mt-4 max-w-5xl text-3xl font-semibold tracking-tight text-white md:text-5xl md:leading-[1.15]">
-              참여 교수진을 소개합니다
+              참여 교수진 소개
             </h1>
 
             <p
@@ -209,7 +209,7 @@ export default function TeamsProfessorsPage() {
                       </p>
 
                       <p className="mt-2 text-[15px] leading-7 text-zinc-500">
-                        육군사관학교
+                        서강대학교 화학과
                       </p>
                     </div>
                   </div>
@@ -219,20 +219,21 @@ export default function TeamsProfessorsPage() {
                       className="text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (컨소시엄에서의 역할 한줄 소개)
+                      파라수소 기반 초분극 신호 증폭 연구를 통해 다이아몬드 양자센싱에의 적용을 고려하고 있습니다
                     </p>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
                     
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword1
+                      Parahydrogen
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword2
+                      Hyperpolarization
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword3
+                     NMR Quantum Sensing
+
                     </span>
                   </div>
 

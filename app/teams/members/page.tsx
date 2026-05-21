@@ -341,7 +341,7 @@ export default function TeamsMembersPage() {
             </div>
           </section>
 
-          {/* 육군사관학교 정근홍 연구팀 */}
+          {/* 서강대 정근홍 연구팀 */}
           <section className="rounded-[34px] bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 p-px shadow-lg">
             <div className="rounded-[33px] bg-white px-6 py-8 md:px-10 md:py-10">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -350,19 +350,19 @@ export default function TeamsMembersPage() {
                     LAB 03
                   </p>
                   <h2 className="mt-2 text-3xl font-semibold tracking-tight text-zinc-950 md:text-[2.25rem]">
-                    육군사관학교 정근홍 연구팀
+                    서강대학교 정근홍 연구팀
                   </h2>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    PI · 정근홍 교수 / 육군사관학교
+                    PI · 정근홍 교수 / AI-Quantum Fusion Chemistry Lab,
                   </p>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명 예정
+                    석사후 연구원 2명
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    석사/학사후연구원 2명
+                    대학원생 6명
                   </span>
                 </div>
               </div>
@@ -371,41 +371,40 @@ export default function TeamsMembersPage() {
                 className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                 style={{ wordBreak: "keep-all" }}
               >
-                육군사관학교 정근홍 연구팀은 컨소시엄 협력 연구를 통해 양자센서
-                응용 기술과 장치 개발 방향을 함께 모색하는 연구팀입니다.
+                서강대학교 정근홍 연구팀은 파라수소를 이용하여 초분극 증폭을 통한 NMR 및 양자 센싱 측정 기술을 중심으로 세부1의 실시간 생화학 물질 탐지 연구를 수행합니다. 
               </p>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Researcher
+                    Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    연구원 01
+                    Taewoo Lee 
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher01@kma.ac.kr
+                   yckwoo@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Quantum sensing system operation and test support
+                     Hyperpolarization of NMR signal with parahydrogen
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Researcher
+                    Post-Master’s Researcher 
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    연구원 02
+                    Bongjin Kim
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher02@kma.ac.kr
+                    bania24@naver.com
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Applied sensing and device verification
+                     Automation of Experiment System
                     </p>
                   </div>
                 </div>
@@ -625,13 +624,13 @@ export default function TeamsMembersPage() {
                     조선대학교 명노준 연구팀
                   </h2>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    PI · 명노준 교수 / 조선대학교 물리교육학과
+                    PI · 명노준 교수 / Quantum Transport & Mesoscopic Physics Lab
                   </p>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명 예정
+                    박사후연구원 3명
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
                     대학원생 1명
@@ -643,27 +642,87 @@ export default function TeamsMembersPage() {
                 className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                 style={{ wordBreak: "keep-all" }}
               >
-                조선대학교 명노준 연구팀은 세부2 공동연구자로 참여하며 소형 심자도
-                기술의 연구 협력과 응용 확장 방향을 함께 추진하는 연구실입니다.
+                다이아몬드 NV 센터 양자상태 거동 이론 계산 및 물리모델 기반 기계학습/심층학습을 통한 양자센싱 최적화를 중심으로 세부1과 세부2의 실험-이론 융합 공동연구를 수행합니다.
+
               </p>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                
+
+
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
+                    Postdoctoral Researcher 
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 01
+                    Myung-Chul Jung 
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student01@chosun.ac.kr
+                    mcjung24@chosun.ac.kr
+
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Compact sensor applications and validation
+                      Ab-Initio Calculation, Quantum Information Theory 
                     </p>
                   </div>
                 </div>
+
+
+                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
+                    Postdoctoral Researcher 
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
+                    Haleem Ud Din 
+                  </h3>
+                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
+                    haleem@chosun.ac.kr
+                  </p>
+                  <div className="mt-5 border-t border-zinc-200 pt-5">
+                    <p className="text-[15px] leading-8 text-zinc-700">
+                      Ab-Initio Calculation, Quantum Materials Science
+                    </p>
+                  </div>
+                </div>
+
+
+                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
+                    Postdoctoral Researcher 
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
+                    Sunuk Choe 
+                  </h3>
+                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
+                    schoe89@chosun.ac.kr
+
+                  </p>
+                  <div className="mt-5 border-t border-zinc-200 pt-5">
+                    <p className="text-[15px] leading-8 text-zinc-700">
+                     Physics-Informed Neural Network Model 
+                    </p>
+                  </div>
+                </div>
+
+                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
+                    Master Student 
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
+                    Jihyeon Jeon 
+                  </h3>
+                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
+                    jhjeon@chosun.ac.kr
+                  </p>
+                  <div className="mt-5 border-t border-zinc-200 pt-5">
+                    <p className="text-[15px] leading-8 text-zinc-700">
+                      Electron Dynamics Theory in NV Center
+                    </p>
+                  </div>
+                </div>
+
+
               </div>
             </div>
           </section>

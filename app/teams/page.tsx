@@ -422,24 +422,23 @@ export default function TeamsPage() {
                     LAB 03
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    육군사관학교 정근홍 연구팀
+                    서강대학교 정근홍 연구팀
                   </h3>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    육군사관학교
+                    AI-Quantum Fusion Chemistry Lab
                   </p>
                   <p
                     className="mt-5 text-[15px] leading-8 text-zinc-700"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    양자센서 응용 기술과 장치 개발 방향을 함께 모색하며 세부1 공동
-                    연구에 참여하는 연구실입니다.
+                    파라수소를 이용하여 초분극 증폭을 통한 NMR 및 양자 센싱 측정 기술을 중심으로 세부1의 실시간 생화학 물질 탐지 연구를 수행합니다
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      박사후연구원 1명 예정
+                      석사후 연구원 2명
                     </span>
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      석사/학사후연구원 2명
+                      대학원생 6명
                     </span>
                   </div>
                 </div>
@@ -476,17 +475,17 @@ export default function TeamsPage() {
                     LAB 05
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    UNIST 김제형 연구팀
+                    울산과학기술원  김제형 연구팀
                   </h3>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    UNIST 물리학과
+                    Quantum Photonic Integrated Devices (QUPID) Lab
                   </p>
                   <p
                     className="mt-5 text-[15px] leading-8 text-zinc-700"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    양자센서 기반 신호 처리와 소형 심자도 기술의 고도화에 기여하며
-                    세부2 공동연구를 수행하는 연구실입니다.
+                    고체 양자 구조를 기반으로 높은 활용성의 광집적 양자 스핀/광소자 플랫폼 개발 연구를 수행합니다. 
+
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
@@ -506,18 +505,17 @@ export default function TeamsPage() {
                     조선대학교 명노준 연구팀
                   </h3>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    조선대학교 물리교육학과
+                    Quantum Transport & Mesoscopic Physics Lab
                   </p>
                   <p
                     className="mt-5 text-[15px] leading-8 text-zinc-700"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    소형 심자도 기술의 연구 협력과 응용 확장 방향을 함께 추진하며
-                    세부2 공동연구에 참여하는 연구실입니다.
+                    다이아몬드 NV 센터 양자상태 거동 이론 계산 및 물리모델 기반 기계학습/심층학습을 통한 양자센싱 최적화를 중심으로 세부1과 세부2의 실험-이론 융합 공동연구를 수행합니다.
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      박사후연구원 1명 예정
+                      박사후연구원 3명
                     </span>
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
                       대학원생 1명
