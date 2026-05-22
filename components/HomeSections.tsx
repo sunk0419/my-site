@@ -233,13 +233,7 @@ export default function HomeSections() {
         
       </main>
 
-      <Link
-        href="/news/hiring"
-        className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-blue-700 px-5 py-3 text-sm font-semibold text-white shadow-xl shadow-blue-900/20 transition hover:-translate-y-0.5 hover:bg-blue-800"
-      >
-        채용 공고
-        <span>↗</span>
-      </Link>
+      
     </>
   );
 }
