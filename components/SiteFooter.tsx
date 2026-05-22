@@ -25,7 +25,7 @@ const footerLinks = [
       { label: "논문 업로드", href: "/news/papers" },
       { label: "채용 공고", href: "/news/hiring" },
       { label: "세미나 및 특강", href: "/news/seminar" },
-      { label: "자료실", href: "/news/archive" },
+      
     ],
   },
 ];
@@ -63,7 +63,7 @@ export default function SiteFooter() {
                 컨소시엄 소개
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:donghun@korea.ac.kr"
                 className="rounded-full border border-white/15 bg-white/10 px-5 py-3 text-center text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/15"
               >
                 문의하기
@@ -80,31 +80,31 @@ export default function SiteFooter() {
             </div>
 
             <h3 className="mt-5 text-lg font-bold text-white">
-              Diamond Quantum Sensing and Imaging
+              Diamond Quantum Sensing and Imaging LAB
             </h3>
 
             <div className="mt-5 space-y-3 text-sm text-blue-100/70">
               <p>서울특별시 · 고려대학교</p>
               <p>
                 <a
-                  href="mailto:contact@example.com"
+                  href="mailto:donghun@korea.ac.kr"
                   className="transition hover:text-cyan-200"
                 >
-                  contact@example.com
+                  donghun@korea.ac.kr
                 </a>
               </p>
               <p>
                 <a
-                  href="tel:0200000000"
+                  href="tel:02-3290-3530"
                   className="transition hover:text-cyan-200"
                 >
-                  02-0000-0000
+                  02-3290-3530
                 </a>
               </p>
             </div>
 
             <div className="mt-6 flex flex-wrap gap-2">
-              {["Quantum Sensing", "QMR", "Imaging", "Consortium"].map(
+              {["Quantum Sensing", "Nano-MRI", "Imaging"].map(
                 (tag) => (
                   <span
                     key={tag}
@@ -174,10 +174,10 @@ export default function SiteFooter() {
         </div>
 
         {/* Bottom */}
-        <div className="mt-8 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-blue-100/55 md:flex-row md:items-center md:justify-between">
+        <div className="mt-4 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-blue-100/55 md:flex-row md:items-center md:justify-between">
           <p>© 2025 Quantum Flagship QMR Consortium. All rights reserved.</p>
           <p className="text-blue-100/45">
-            Built for Diamond Quantum Sensing and Imaging
+            Designed by Sunwoo Kim
           </p>
         </div>
       </div>
