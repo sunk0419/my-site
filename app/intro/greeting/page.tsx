@@ -323,7 +323,7 @@ export default function IntroGreetingPage() {
                     </h2>
 
                     <p className="mt-3 text-lg font-medium text-zinc-700">
-                      고려대학교 물리학과
+                      KRISS 양자자기센싱그룹
                     </p>
                   </div>
 
@@ -343,18 +343,16 @@ export default function IntroGreetingPage() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    다이아몬드 NV 센터 기반 양자센싱 및 이미징 실험 연구를 중심으로,
-                    원천 물리와 의료·바이오 응용을 연결하는 융합 연구를 수행하고 있습니다.
+                    앙상블 NV 센터를 이용한 자기장 측정 및 이미징 기술을 개발하고 이를 산업에 응용하는 연구를 수행합니다. 
                   </p>
 
                   <p
                     className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    본 컨소시엄에서는 고해상도 나노·마이크로 MRI와 소형 양자 심자도 기술을
-                    함께 고도화하며, 양자센서 플랫폼의 실질적 확장 가능성을 만들어가고
-                    있습니다. 기초 연구의 성과가 실제 의료·산업 현장의 응용으로 이어질 수
-                    있도록, 연구 방향과 협력 체계를 함께 설계하고 있습니다.
+                    본 컨소시엄에서는 참여 연구진과의 긴밀한 협력을 바탕으로 다이아몬드 양자자기장 센서를 고도화하고 있으며, 의료· 바이오·반도체 등 국가 주요 산업 발전에 기여할 신기술 확보에 주력합니다.
+
+
                   </p>
                 </div>
 
@@ -365,13 +363,13 @@ export default function IntroGreetingPage() {
                   <div className="grid gap-x-14 md:grid-cols-2">
                     <div className="grid grid-cols-[100px_minmax(0,1fr)] gap-x-5 py-3">
                       <p className="pt-1 text-[15px] font-bold text-zinc-950">직위</p>
-                      <p className="text-[15px] leading-8 text-zinc-700">세부2 책임자</p>
+                      <p className="text-[15px] leading-8 text-zinc-700">세부2 과제책임자 </p>
                     </div>
 
                     <div className="grid grid-cols-[100px_minmax(0,1fr)] gap-x-5 py-3">
                       <p className="pt-1 text-[15px] font-bold text-zinc-950">소속</p>
                       <p className="text-[15px] leading-8 text-zinc-700">
-                        고려대학교 물리학과
+                       한국표준과학연구원
                       </p>
                     </div>
 
@@ -381,7 +379,7 @@ export default function IntroGreetingPage() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        다이아몬드 NV 센터 기반 양자센싱 및 이미징 실험 연구
+                       고정밀 자기장 측정 기술, 자기장이미징 응용 기술
                       </p>
                     </div>
 
@@ -391,8 +389,7 @@ export default function IntroGreetingPage() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        세부2 연구 운영, 연구 비전 수립, 산학연 협력 체계 구축,
-                        미래 의료 응용 전략 기획
+                       세부2 과제 운영, 산업 응용 전략 수립 
                       </p>
                     </div>
 
@@ -402,8 +399,7 @@ export default function IntroGreetingPage() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        Quantum Sensing, Diamond NV Center, Biomedical Imaging,
-                        Nano / Micro MRI, Compact MCG
+                       Quantum Diamond Magnetometer, Quantum Bio-sensing, Quantum-Enhanced Nondestructive Testing, NV-Hyperpolarization, Diamond CVD Growth
                       </p>
                     </div>
 
@@ -413,7 +409,7 @@ export default function IntroGreetingPage() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        고해상도 바이오 이미징, 정밀 진단 센서, 차세대 양자 의료 응용
+                        생체자기신호 측정 기술, 반도체·2차전지 비파괴 진단 기술, 고감도 체외진단 기술
                       </p>
                     </div>
                   </div>
@@ -426,11 +422,11 @@ export default function IntroGreetingPage() {
                 </h3>
 
                 <div className="mt-5 space-y-3 text-[15px] leading-8 text-zinc-700">
-                  <p>· 고려대 주관 양자대학원 부원장 (2024~)</p>
-                  <p>· 한·미·스위스 양자국제공동연구 연구책임자 (2022~)</p>
-                  <p>· 한국양자정보학회 3대 회장 (2026–2027)</p>
-                  <p>· 양자과학기술 분야 과기부 장관상 수상 (2023)</p>
-                  <p>· 서울시 서울퀀텀캠퍼스 기획위원 (2024)</p>
+                  <p>· 한국자기공명학회 학술지 편집이사(2018-2020)</p>
+                  <p>· 한국연구재단 양자기술 RB (2024-2026)</p>
+                  <p>· 국가과학기술자문회의(심의) 양자반도체 전문위원 (2024-2026) </p>
+                  <p>· 한국양자정보학회 양자센싱분과 부위원장 (2026-2027)</p>
+                  
                 </div>
               </div>
             </div>
@@ -457,29 +453,21 @@ export default function IntroGreetingPage() {
 
               <div className="mt-8 space-y-6 text-[16px] leading-8 text-zinc-700">
                 <p style={{ wordBreak: "keep-all" }}>
-                  안녕하십니까. 다이아몬드 NV 센터 기반 양자센서 컨소시엄 홈페이지를
-                  찾아주신 여러분께 진심으로 감사드립니다.
+                  안녕하세요. 세부2 과제 책임자 심정현입니다. 
+
                 </p>
 
                 <p style={{ wordBreak: "keep-all" }}>
-                  양자센서 기술은 높은 민감도와 정밀도를 바탕으로 기존 측정 기술이
-                  도달하기 어려웠던 영역을 새롭게 열어가고 있습니다. 특히 다이아몬드 NV
-                  센터 기반 양자센서는 상온 환경에서도 안정적으로 동작하며, 분자와 세포
-                  수준의 고해상도 분석부터 생체 신호 기반 정밀 진단까지 폭넓은 가능성을
-                  보여주고 있습니다.
+                 한국표준과학연구원 양자자기센싱 연구진은 지난 20여년간 국내 생체자기측정 기술의 태동과 확산을 이끌어 왔습니다. 
+                 이제 저희는 축적된 역량을 바탕으로 ‘다이아몬드 NV 센터’라는 새로운 양자 플랫폼으로 도약하고자 합니다
                 </p>
 
                 <p style={{ wordBreak: "keep-all" }}>
-                  본 컨소시엄은 이러한 가능성에 주목하여 나노·마이크로 MRI와 소형 양자
-                  심자도 기술을 함께 발전시키고자 합니다. 이는 단순한 개별 기술 개발을
-                  넘어, 원천기술에서 시스템 구현, 바이오·의료 응용, 산업화 기반 조성까지
-                  연결하는 통합적 도전입니다.
+                  본 컨소시엄 참여 연구진들과의 긴밀한 협력을 통해 국가 첨단 산업이 직면한 난제를 해결하고, 실용적인 기여를 할 수 있는 신기술 개발을 위해 노력하겠습니다.
                 </p>
 
                 <p style={{ wordBreak: "keep-all" }}>
-                  앞으로도 본 컨소시엄은 양자센서 플랫폼의 실질적 확장과 협력 생태계
-                  구축을 통해 미래 의료와 산업의 변화를 이끄는 연구를 지속해 나가겠습니다.
-                  여러분의 많은 관심과 성원을 부탁드립니다.
+                 감사합니다. 
                 </p>
               </div>
             </div>
