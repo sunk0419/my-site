@@ -459,7 +459,7 @@ export default function IntroGreetingPage() {
 
                 <p style={{ wordBreak: "keep-all" }}>
                  한국표준과학연구원 양자자기센싱 연구진은 지난 20여년간 국내 생체자기측정 기술의 태동과 확산을 이끌어 왔습니다. 
-                 이제 저희는 축적된 역량을 바탕으로 ‘다이아몬드 NV 센터’라는 새로운 양자 플랫폼으로 도약하고자 합니다
+                 <br/>이제 저희는 축적된 역량을 바탕으로 ‘다이아몬드 NV 센터’라는 새로운 양자 플랫폼으로 도약하고자 합니다
                 </p>
 
                 <p style={{ wordBreak: "keep-all" }}>
