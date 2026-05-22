@@ -319,7 +319,7 @@ export default function IntroGreetingPage() {
                     </p>
 
                     <h2 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-950 md:text-[2.4rem] md:leading-[1.2]">
-                      이동헌
+                      심정현
                     </h2>
 
                     <p className="mt-3 text-lg font-medium text-zinc-700">
@@ -327,10 +327,10 @@ export default function IntroGreetingPage() {
                     </p>
                   </div>
 
-                  <div className="shrink-0">
+                   <div className="shrink-0">
                     <div className="overflow-hidden rounded-[10px] border border-zinc-300 bg-zinc-100 shadow-[0_8px_18px_rgba(15,23,42,0.12)]">
                       <img
-                        src="/intro/greeting/figure1.png"
+                        src="/intro/greeting/figure2.png"
                         alt="세부2 책임자 사진"
                         className="block h-auto w-[92px] object-cover md:w-[108px] lg:w-[120px]"
                       />
