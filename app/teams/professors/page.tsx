@@ -277,7 +277,7 @@ export default function TeamsProfessorsPage() {
                       </p>
 
                       <p className="mt-2 text-[15px] leading-7 text-zinc-500">
-                        한국표준과학연구원
+                        KRISS 양자자기센싱그룹
                       </p>
                     </div>
                   </div>
@@ -287,20 +287,21 @@ export default function TeamsProfessorsPage() {
                       className="text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (컨소시엄에서의 역할 한줄 소개)
+                     앙상블 NV 센터를 이용한 자기장 측정 및 이미징 기술을 개발하고 이를 산업에 응용하는 연구를 수행합니다.
+
                     </p>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
                     
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      Quantum Sensing
+                      Quantum Diamond Magnetometer
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      Compact MCG
+                     Quantum Bio-sensing
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      Sensor Platform
+                      Quantum-Enhanced Nondestructive Testing
                     </span>
                   </div>
 

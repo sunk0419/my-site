@@ -201,11 +201,13 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <p className="mt-4 text-[15px] leading-7 text-zinc-500">
-                      한국표준과학연구원 / (연구실 이름)
+                      한국표준과학연구원 / 양자자기센싱그룹
+
                     </p>
 
                     <p className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]">
-                      연락처 - (이메일 주소)
+                      연락처 - jhshim@kriss.re.kr
+
                     </p>
 
                   </div>
@@ -229,15 +231,10 @@ export default function TeamsSub2Page() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (교수님의 한마디)
-                  </p>
+                    본 컨소시엄에서는 참여 연구진과의 긴밀한 협력을 바탕으로 다이아몬드 양자자기장 센서를 고도화하고 있으며, 의료· 바이오·반도체 등 국가 주요 산업 발전에 기여할 신기술 확보에 주력합니다.
+                </p>
 
-                  <p
-                    className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
-                    style={{ wordBreak: "keep-all" }}
-                  >
-                    (컨소시엄에서의 역할)
-                  </p>
+                  
                 </div>
 
                 <div className="mt-8 h-2 w-28 rounded-full bg-[#4CC9F0]" />
@@ -249,7 +246,7 @@ export default function TeamsSub2Page() {
                         직위
                       </p>
                       <p className="text-[15px] leading-8 text-zinc-700">
-                        세부2 연구책임자
+                        세부2 과제책임자 
                       </p>
                     </div>
 
@@ -270,7 +267,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        고정밀 자기장 측정 기술, 자기장이미징 응용 기술 
                       </p>
                     </div>
 
@@ -282,7 +279,7 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        세부2 과제 운영, 산업 응용 전략 수립 
                       </p>
                     </div>
 
@@ -294,7 +291,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        Quantum Diamond Magnetometer, Quantum Bio-sensing,
+                         Quantum-Enhanced Nondestructive Testing, NV-Hyperpolarization, Diamond CVD Growth 
                       </p>
                     </div>
 
@@ -306,7 +304,8 @@ export default function TeamsSub2Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        생체자기신호 측정 기술, 반도체·2차전지 비파괴 진단 기술, 고감도 체외진단 기술
+
                       </p>
                     </div>
                   </div>
@@ -321,41 +320,29 @@ export default function TeamsSub2Page() {
                     </p>
 
                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
-                      (장비 이름)
+                      Electron Spin Resonance
                     </h3>
 
                     <p className="mt-3 text-sm font-semibold text-blue-700">
                       
                     </p>
 
-                    <p
-                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
-                      style={{ wordBreak: "keep-all" }}
-                    >
-                      
-                      (장비 역할 설명); 세부2 연구팀의 (장비 이름)은 (장비 설명). 이 장비를 활용하여 (활용 분야) 등을 연구할 예정입니다.
-                    </p>
+                  
                   </div>
 
-                  <div className="mb-4 rounded-2xl bg-blue-50 px-8 py-4 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부2 핵심 장비
-                  </div>
+                  
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[440px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/-.png"
-                      alt="장비사진"
-                      className="block h-auto w-full object-cover"
-                    />
-                  </div>
-
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub2/-.png"
-                      alt="장비사진"
-                      className="block h-auto w-full object-cover"
+                      src="/teams/sub2/sim_eq1.png"
+                      alt="심정현 박사님 장비1"
+                      width={657}
+                      height={822}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
                     />
                   </div>
                 </div>
@@ -371,7 +358,7 @@ export default function TeamsSub2Page() {
                         className="mt-4 text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        (장비에 대한 상세 설명; 구성 요소, 운용 방식, 간단 원리 등)
+                        약 9 GHz 대역의 마이크로파와 공명하는 전자 스핀의 마이크로파 흡수 스펙트럼을 측정해서, 상자성 불순물의 종류를 확인하고 그 농도를 정량화 할 수 있습니다
                       </p>
                     </div>
 
@@ -380,17 +367,13 @@ export default function TeamsSub2Page() {
                         활용 분야
                       </h4>
 
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                      </div>
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        다이아몬드 내부에 존재하는 상자성 스핀 불순물 농도의 정량 분석에 사용됩니다. 
+
+                      </p>
                     </div>
                   </div>
 
@@ -404,24 +387,506 @@ export default function TeamsSub2Page() {
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        측정 방식 · -
+                        X-Band Resonator
                       </li>
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        핵심 구성 · -
+                        Microwave Bridge
                       </li>
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        주요 활용 · -
+                        0.6 T 전자석
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      MP-CVD
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      
+                    </p>
+
+                   
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[720px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/sim_eq2.jpg"
+                      alt="심정현 박사님 장비2"
+                      width={878}
+                      height={543}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        고출력 마이크로파로 인해 생성된 H2 플라즈마에 메탄(CH4) 가스를 혼합하고, 화학기상증착(CVD) 과정을 통해서 다이아몬드 박막을 성장시키는 장비입니다
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       양자 센싱 연구에 사용될 고품질 단결정 박막 성장에 사용됩니다. 
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                      5 kW 마이크로파 소스
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        CVD 반응기
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        PLC 장비
+                      </li>
+
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        로드락챔버
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                     공초점 ODMR & PL 시스템
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      
+                    </p>
+
+                    
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[480px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/sim_eq3.png"
+                      alt="심정현 박사님 장비3"
+                      width={655}
+                      height={543}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        다이아몬드에서 발생되는 PL 및 ODMR 스펙트럼의 측정하고, 2차원 이미징이 가능한 공초점 현미경 장치
+
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        : NV 센터의 전하 상태 측정, ODMR contrast 정량 측정, 형광량 기반 NV 농도 정량화 연구에 사용됩니다. 
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        나노스테이지/ 대물렌즈/ 마이크로파 안테나
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        Monochromator
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        CCD
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                     Wide-field NV Microscopy
+
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      
+                    </p>
+
+                    
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[480px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/sim_eq4.png"
+                      alt="심정현 박사님 장비4"
+                      width={633}
+                      height={677}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       Shallow NV 층을 갖는 다이아몬드 표면에 형성된 자기장의 패턴을 고속으로 획득함.
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                       <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                      반도체 또는 나노자성 소자에서 발생된 자기장을 마이크로미터 분해능으로 이미징하고 이를 바탕으로 소자의 특성을 진단하는 장치
+
+
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        대물렌즈, 마이크로파 안테나
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        EMCCD
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        3축 전자석
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      고자장 NV-NMR 장치
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      
+                    </p>
+
+                  
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[640px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/sim_eq5.png"
+                      alt="심정현 박사님 장비5"
+                      width={805}
+                      height={522}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >다이아몬드에 150 mT 이상의 자기장을 인가한 후, Synchronized Readout 기법으로 AC 자기장을 측정하는 장치
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                       <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >다이아몬드 표면에 존재하는 화학 물질의 NMR 스펙트럼 측정 연구에 사용됩니다. 
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        2축 회전 전자석
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        대물렌즈
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        532 nm DPSS 레이저/ MW 펄스 생성기
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      대면적 NV 자기장 이미징 장치
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      
+                    </p>
+
+                  
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[600px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub2/sim_eq6.png"
+                      alt="심정현 박사님 장비6"
+                      width={761}
+                      height={606}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        다이아몬드 자기장센서를 이용하여, 100 mm *100 mm 이상의 대면적의 자기장 패턴을 mm 이하 분해능으로 이미징하는 장치
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+
+                     <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        2차 전지, 금속 3D 프린팅 소재를 대상으로 양자-비파괴 검사 기술을 개발하는 연구에 사용됩니다.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       NV 자기장센서 모듈
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        비자성 2D 스테이지
+                      </li>
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        Laser Diode/ Microwave 출력 및 증폭기
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </section>
 
@@ -595,12 +1060,12 @@ export default function TeamsSub2Page() {
                 </div>
 
                 <div className="mt-4">
-                  <div className="mx-auto w-full max-w-[420px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub2/kim_eq1.png?v=3"
+                      src="/teams/sub2/kim_eq1.png?v=4"
                       alt="0.7 K 폐사이클 저온 냉각장치 사진"
-                      width={743}
-                      height={480}
+                      width={1049}
+                      height={678}
                       loading="lazy"
                       decoding="async"
                       className="block h-auto w-full object-contain"

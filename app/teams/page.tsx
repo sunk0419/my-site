@@ -451,22 +451,19 @@ export default function TeamsPage() {
                     KRISS 심정현 연구팀
                   </h3>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    한국표준과학연구원
+                    Quantum Magnetic Sensing Group
                   </p>
                   <p
                     className="mt-5 text-[15px] leading-8 text-zinc-700"
                     style={{ wordBreak: "keep-all" }}
-                  >
-                    세부2의 핵심 연구 주체로서 소형 심자도 센서 개발과 양자센싱
-                    기반 심장 자기장 계측 기술을 중심으로 연구를 수행합니다.
+                  >앙상블 NV 센터를 이용한 자기장 측정 및 이미징 기술을 개발하고 이를 산업에 응용하는 연구를 수행합니다.
+
                   </p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      책임·선임급 연구원 4명
+                      책임 연구원 4명
                     </span>
-                    <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-700">
-                      대학원생 1명
-                    </span>
+                    
                   </div>
                 </div>
 

@@ -424,20 +424,15 @@ export default function TeamsMembersPage() {
                     KRISS 심정현 연구팀
                   </h2>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    PI · 심정현 박사 / KRISS
+                    PI · 심정현 박사 / KRISS Quantum Magnetic Sensing Group
                   </p>
                 </div>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    책임·선임급 연구원 4명
+                    책임 연구원 4명
                   </span>
-                  <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명
-                  </span>
-                  <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    대학원생 2명
-                  </span>
+                 
                 </div>
               </div>
 
@@ -445,96 +440,83 @@ export default function TeamsMembersPage() {
                 className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                 style={{ wordBreak: "keep-all" }}
               >
-                KRISS 심정현 연구팀은 세부2의 핵심 연구 주체로서 소형 심자도 센서
-                개발과 양자센싱 기반 심장 자기장 계측 기술을 중심으로 연구를 수행합니다.
+                앙상블 NV 센터를 이용한 자기장 측정 및 이미징 기술을 개발하고 이를 산업에 응용하는 연구를 수행합니다.
               </p>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Senior Researcher
+                    Principal Investigator
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    책임연구원 01
+                    Seung-Hwan Do
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher01@kriss.re.kr
+                    shdo@kriss.re.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Compact MCG sensor platform design
+                      Wide-field NV Microscopy (RT & LT)
+
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Senior Researcher
+                    Principal Investigator
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    선임연구원 01
+                    Seong-Joo Lee
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher02@kriss.re.kr
+                    sj.lee@kriss.re.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Magnetic sensing and noise control
+                      AC magnetic field sensing
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Senior Researcher
+                   Principal Investigator
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    선임연구원 02
+                    Nam-Woong Song
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher03@kriss.re.kr
+                    nwsong@kriss.re.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Sensor integration and measurement system control
+                     Photoluminescence & Confocal spectroscopy
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Postdoctoral Researcher
+                    Principal Investigator
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    박사후연구원 01
+                    Seong-min Hwang
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    postdoc01@kriss.re.kr
+                    smhwang@kriss.re.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Fiber-based sensing and compact sensor implementation
+                      Magnetic inverse problem for current reconstruction
+
                     </p>
                   </div>
                 </div>
 
-                <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
-                  </p>
-                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 01
-                  </h3>
-                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student01@kriss.re.kr
-                  </p>
-                  <div className="mt-5 border-t border-zinc-200 pt-5">
-                    <p className="text-[15px] leading-8 text-zinc-700">
-                      Quantum sensor signal acquisition and analysis
-                    </p>
-                  </div>
-                </div>
+                
               </div>
+
             </div>
           </section>
 
