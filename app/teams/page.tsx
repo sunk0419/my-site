@@ -155,9 +155,8 @@ export default function TeamsPage() {
                     className="mt-4 text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    교수진 구성 탭에서는 참여 교수진의 소속, 전문분야, 참여 세부과제를
-                    중심으로 연구진을 소개합니다. <br/>각 연구자의 상세 역할과 핵심 장비는
-                    세부 연구팀 페이지에서 이어서 확인할 수 있습니다.
+                    참여 교수진의 소속, 전문분야, 참여 세부과제를
+                    중심으로 연구진을 소개합니다. <br/>
                   </p>
 
                   <div className="mt-4 flex flex-wrap gap-8">
@@ -208,6 +207,12 @@ export default function TeamsPage() {
                   </div>
 
                   
+                <p
+                    className="mt-4 text-[15px] leading-8 text-zinc-700 md:text-[16px]"
+                    style={{ wordBreak: "keep-all" }}
+                  >
+                    참여 연구원들의 소속, 전공 분야, 연락처를 제공합니다.
+                  </p>
 
                   <div className="mt-4 grid gap-x-6 gap-y-4 md:grid-cols-3">
                     <span className="rounded-full bg-zinc-100 px-3 py-1 text-center font-semibold text-zinc-700">

@@ -14,9 +14,9 @@ const footerLinks = [
     title: "연구",
     links: [
       { label: "총괄 연구 목표", href: "/topics/goal" },
-      { label: "세부 주제", href: "/topics/detail" },
-      { label: "세부 과제", href: "/topics/project" },
-      { label: "연구기획 및 장비", href: "/topics/equipment" },
+      { label: "세부 주제 1", href: "/topics/detail1" },
+      { label: "세부 주제 2", href: "/topics/detail2" },
+      
     ],
   },
   {

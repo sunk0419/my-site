@@ -214,14 +214,7 @@ export const pageInfoMap: Record<string, PageInfo> = {
     route: "/topics/detail2",
     groupKey: "topics",
   },
-  topics_equipment: {
-    key: "topics_equipment",
-    label: "연구기획 및 추진전략",
-    title: "연구기획 및 추진전략",
-    subtitle: "연구기획 및 추진전략 소개",
-    route: "/topics/equipment",
-    groupKey: "topics",
-  },
+ 
 
   teams: {
     key: "teams",
