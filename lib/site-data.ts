@@ -71,11 +71,7 @@ export const menuGroups: MenuGroup[] = [
         label: "세부 주제 2",
         route: "/topics/detail2",
       },
-      {
-        key: "topics_equipment",
-        label: "연구기획 및 추진전략",
-        route: "/topics/equipment",
-      },
+      
     ],
   },
   {
