@@ -812,27 +812,26 @@ export default function TeamsSub1Page() {
                     />
                   </div>
                 </div>
-                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
-                  <div>
-                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
-                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
-                        장비 설명
-                      </h4>
+                <div className="mt-6">
+                  <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70 md:px-8 md:py-8">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      장비 설명
+                    </h4>
 
-                      <p
-                        className="mt-4 text-[15px] leading-8 text-zinc-700"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        본 시스템은 시료에 직접 닿지 않고 레이저만으로 초음파를 발생시키고 측정하는 비접촉 영상 장비로, 펄스 레이저와 DMD를 이용해 광흡수층에 다양한 광 패턴을 조사하면 광음향 효과로 음파가 만들어집니다. 
-                        이 음파는 시료를 통과해 반대편 표면에 미세한 변위를 일으키며, 프로브 레이저를 표면에 비춘 뒤 반사광을 reference 광선과 비스듬히 간섭시켜 고속 카메라로 off-axis hologram을 기록합니다. 
-                        기록된 홀로그램에서 표면 변위의 시공간 분포를 추출하고, 여러 광 패턴에 대한 측정 결과를 영상 재구성 알고리즘으로 합치면 시료 내부의 영상을 얻을 수 있습니다. 음파에는 매질을 통과하며 마주친 구조 정보가 모두 담기므로, 산란 보정 알고리즘과 결합하면 산란체 너머의 물체까지 비접촉으로 영상화할 수 있다는 점이 본 시스템의 강점입니다.
-                      </p>
-                    </div>
-
-                    
+                    <p
+                      className="mt-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      본 시스템은 시료에 직접 닿지 않고 레이저만으로 초음파를 발생시키고 측정하는 비접촉 영상 장비로,
+                      펄스 레이저와 DMD를 이용해 광흡수층에 다양한 광 패턴을 조사하면 광음향 효과로 음파가 만들어집니다.
+                      이 음파는 시료를 통과해 반대편 표면에 미세한 변위를 일으키며, 프로브 레이저를 표면에 비춘 뒤
+                      반사광을 reference 광선과 비스듬히 간섭시켜 고속 카메라로 off-axis hologram을 기록합니다.
+                      기록된 홀로그램에서 표면 변위의 시공간 분포를 추출하고, 여러 광 패턴에 대한 측정 결과를 영상
+                      재구성 알고리즘으로 합치면 시료 내부의 영상을 얻을 수 있습니다. 음파에는 매질을 통과하며 마주친
+                      구조 정보가 모두 담기므로, 산란 보정 알고리즘과 결합하면 산란체 너머의 물체까지 비접촉으로
+                      영상화할 수 있다는 점이 본 시스템의 강점입니다.
+                    </p>
                   </div>
-
-                  
                 </div>
               </div>
 
