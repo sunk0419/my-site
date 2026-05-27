@@ -1040,7 +1040,7 @@ export default function TeamsSub1Page() {
                       </p>
                     </div>
 
-                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <div className="mt-4 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                         활용 분야
 
@@ -1061,7 +1061,7 @@ export default function TeamsSub1Page() {
                     </div>
                   </div>
                 
-                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <div className="mt-4 rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                     <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                       주요 구성 및 스펙
                     </h4>
@@ -1164,7 +1164,7 @@ export default function TeamsSub1Page() {
                     </div>
                   </div>
 
-                  <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                  <div className="mt-4 rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                         운용 방식 및 간단 원리
                       </h4>
@@ -1178,7 +1178,7 @@ export default function TeamsSub1Page() {
                       </p>
                     </div>
 
-                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <div className="mt-4 rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                     <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                       주요 구성 및 스펙
                     </h4>

@@ -227,7 +227,7 @@ export default function TeamsMembersPage() {
                     고려대학교 최원식 연구팀
                   </h2>
                   <p className="mt-3 text-[15px] leading-7 text-zinc-500">
-                    PI · 최원식 교수 / 고려대학교
+                    PI · 최원식 교수 / Center for Deep Optical Imaging
                   </p>
                 </div>
 
