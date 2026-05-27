@@ -449,11 +449,13 @@ export default function TeamsSub1Page() {
                     </p>
 
                     <p className="mt-4 text-[15px] leading-7 text-zinc-500">
-                      고려대학교 물리학과 /  (연구실 이름)
+                      고려대학교 물리학과 /  Center for Deep Optical Imaging
+
                     </p>
 
                     <p className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]">
-                      연락처 - (이메일 주소)
+                      연락처: wonshik@korea.ac.kr
+
                     </p>
 
                   </div>
@@ -477,14 +479,15 @@ export default function TeamsSub1Page() {
                     className="max-w-5xl text-[16px] font-semibold leading-8 text-blue-700 md:text-[17px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (교수님의 한마디)
+                   산란 매질 내부 고해상도 광학 이미징 기술 개발을 통해 세부1 연구팀의 이미징 플랫폼 고도화에 기여하고 있습니다.
                   </p>
 
                   <p
                     className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                     style={{ wordBreak: "keep-all" }}
                   >
-                    (컨소시엄에서의 역할)
+                   반사행렬 현미경 기술을 NV 센터 기반 이미징 시스템에 접목하여 이미징 해상도와 심도를 향상시키는 연구를 하고 있습니다.
+
                   </p>
                 </div>
 
@@ -518,7 +521,8 @@ export default function TeamsSub1Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                       고심도 광학 이미징 연구
+
                       </p>
                     </div>
 
@@ -530,7 +534,8 @@ export default function TeamsSub1Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        NV 센터 이미징 시스템에 반사행렬 현미경 기술 접목 연구
+
                       </p>
                     </div>
 
@@ -542,7 +547,8 @@ export default function TeamsSub1Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        Quantum Imaging, Reflection Matrix Microscopy, Deep Tissue Imaging
+
                       </p>
                     </div>
 
@@ -554,7 +560,8 @@ export default function TeamsSub1Page() {
                         className="text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        -
+                        NV 센터 이미징 해상도 및 심도 향상, 생체 내부 양자센서 신호 관측
+
                       </p>
                     </div>
                   </div>
@@ -569,40 +576,37 @@ export default function TeamsSub1Page() {
                     </p>
 
                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
-                      CLASS Set-up
+                      Closed-loop accumulation of single scattering (CLASS) imaging system
+
                     </h3>
 
                     <p className="mt-3 text-sm font-semibold text-blue-700">
-                      (장비의 역할)
+                      반사 행렬을 측정하여 다른 이미징 모델들에 적용 (CLASS, MST 알고리즘, Virtual histopathology 등)
+
                     </p>
 
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (장비에 대한 한줄 설명)
+                     반사행렬을 측정할 수 있는 점 스캔 현미경
+
                     </p>
                   </div>
 
-                  <div className="mb-4 rounded-2xl bg-blue-50 px-8 py-4 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부1 핵심 장비
-                  </div>
+                  
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[820px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub1/-.png"
-                      alt="실험 장비 사진"
-                      className="block h-auto w-full object-cover"
-                    />
-                  </div>
-
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub1/-.png"
-                      alt="실험 장비 사진"
-                      className="block h-auto w-full object-cover"
+                      src="/teams/sub1/choi_eq1.png"
+                      alt="최원식 교수님 장비1"
+                      width={1142}
+                      height={856}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
                     />
                   </div>
                 </div>
@@ -618,57 +622,221 @@ export default function TeamsSub1Page() {
                         className="mt-4 text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        (장비에 대한 상세 설명; 구성 요소, 운용 방식, 간단 원리 등)
+                       본 시스템은 시료에서 되돌아온 빛의 전기장(electric field)을 직접 측정하는 광학 영상 장비로, 515 nm 펨토초 펄스 레이저를 광원으로 사용해 시료 표면에 점 단위로 초점을 만들어 스캔합니다.
+                        갈바노미터 미러로 빔의 방향을 빠르게 제어해 시료 표면을 한 점씩 훑고, 시료에서 반사·산란되어 돌아온 빛은 같은 갈바노미터 미러를 거꾸로 통과해 원래 경로로 정렬되는 de-scan 방식으로 다시 모입니다. 
+                        이렇게 모인 빛을 참조광(reference)과 간섭시켜 sCMOS 카메라로 기록하면 세기뿐 아니라 위상까지 포함한 복소 전기장 정보를 직접 측정할 수 있습니다. 펨토초 펄스가 갖는 매우 짧은 시간 폭 덕분에 산란 매질을 빠르게 통과한 ballistic 신호를 시간적으로 선별할 수 있어, 단순 세기 영상으로는 보이지 않는 산란체 너머의 미세 구조까지 고해상도로 영상화할 수 있다는 점이 본 시스템의 강점입니다.
                       </p>
                     </div>
 
-                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
-                        활용 분야
-                      </h4>
-
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          -
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                         -
-                        </span>
-                      </div>
-                    </div>
+                    
                   </div>
 
-                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
-                      주요 구성 및 스펙
-                    </h4>
-
-                    <ul className="mt-4 space-y-4">
-                      <li
-                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        측정 방식 · -
-                      </li>
-                      <li
-                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        핵심 구성 · -
-                      </li>
-                      <li
-                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        주요 활용 · -
-                      </li>
-                    </ul>
-                  </div>
+                  
                 </div>
               </div>
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      Long wavelength oblique back-illumination (OBM) system
+
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      단파장 투과가 힘든 샘플의 깊은 곳을 관측하기 위한 시스템
+
+                    </p>
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      Confocal reflection과 OBM 영상을 동시에 얻는 35 fps 실시간 광학 영상 시스템
+
+                    </p>
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[1000px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub1/choi_eq2.png"
+                      alt="최원식 교수님 장비2"
+                      width={1305}
+                      height={804}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        본 시스템은 폴리곤 미러(polygonal mirror)와 갈바노미터 미러를 결합한 고속 스캔 광학계로 35 fps 실시간 라이브 영상을 얻는 광학 영상 장비입니다. 
+                        폴리곤 미러가 빠른 수평 스캔을, 갈바노미터 미러가 수직 스캔을 담당하여 빔을 점 단위로 시료 표면 위에서 신속하게 이동시킵니다. 대물렌즈를 통해 시료 초점면의 confocal reflection 영상을 얻는 동시에, 대물렌즈 양 옆에 설치된 multimode fiber로 시료 내부에서 다중 산란된 빛을 수집하여 OBM 영상을 함께 얻습니다. 
+                        두 가지 imaging modality를 한 광학 경로에서 실시간으로 동시에 활용할 수 있다는 점이 본 시스템의 강점입니다.
+                      </p>
+                    </div>
+
+                    
+                  </div>
+
+                 
+                </div>
+              </div>
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      Multifocal fluorescence imaging system 
+
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      DMD를 이용해 다수의 초점 패턴을 동시에 생성·스캔하여 시료를 고속으로 이미징하는 시스템
+
+                    </p>
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      디지털 마이크로미러 소자(DMD)로 광 패턴을 프로그래밍 방식으로 제어해 다중 초점 병렬 스캐닝을 구현하는 광학 이미징 장비
+
+                    </p>
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[900px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub1/choi_eq3.png"
+                      alt="최원식 교수님 장비3"
+                      width={1234}
+                      height={852}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full object-contain"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        본 시스템은 DMD(Digital Micromirror Device)로 시료에 다초점 광 패턴을 만들어 고속으로 영상화하는 광학 영상 장비입니다. 
+                        광원에서 나온 빛이 DMD에 입사하면 수십만 개의 마이크로미러가 픽셀 단위로 ON/OFF 스위칭하여 원하는 다초점 패턴을 형성하고, 이 패턴은 릴레이 광학계와 대물렌즈를 거쳐 시료면에 동시에 여러 지점으로 결상됩니다. 
+                        DMD 패턴을 시간에 따라 빠르게 바꾸어 시야 전체를 점 단위가 아닌 패턴 단위로 스캔하고, 시료에서 발생한 신호광은 카메라로 수집되어 패턴 정보와 동기화·재구성됩니다. 
+                        이러한 방식으로 단일 점 스캐닝 대비 훨씬 빠른 속도로 고해상도 형광·광발광 영상을 얻을 수 있다는 점이 본 시스템의 강점입니다.
+
+                      </p>
+                    </div>
+
+                    
+                  </div>
+
+                  
+                </div>
+              </div>
+
+                          <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      Laser Ultrasound (LUS) imaging system
+
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      빛으로 음파를 만들고 다시 빛으로 측정해 산란층 안쪽을 들여다보는 비접촉 초음파 영상 시스템
+
+                    </p>
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      레이저로 발생시킨 음파를 홀로그래피로 측정해 산란체 너머의 물체 영상을 얻는 비접촉 초음파 시스템
+
+                    </p>
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-4">
+                  <div className="mx-auto w-full max-w-[1200px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100 p-2">
+                    <img
+                      src="/teams/sub1/choi_eq4.png"
+                      alt="최원식 교수님 장비4"
+                      width={1662}
+                      height={784}
+                      loading="lazy"
+                      decoding="async"
+                      className="block h-auto w-full rounded-[20px] object-contain"
+                    />
+                  </div>
+                </div>
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        본 시스템은 시료에 직접 닿지 않고 레이저만으로 초음파를 발생시키고 측정하는 비접촉 영상 장비로, 펄스 레이저와 DMD를 이용해 광흡수층에 다양한 광 패턴을 조사하면 광음향 효과로 음파가 만들어집니다. 
+                        이 음파는 시료를 통과해 반대편 표면에 미세한 변위를 일으키며, 프로브 레이저를 표면에 비춘 뒤 반사광을 reference 광선과 비스듬히 간섭시켜 고속 카메라로 off-axis hologram을 기록합니다. 
+                        기록된 홀로그램에서 표면 변위의 시공간 분포를 추출하고, 여러 광 패턴에 대한 측정 결과를 영상 재구성 알고리즘으로 합치면 시료 내부의 영상을 얻을 수 있습니다. 음파에는 매질을 통과하며 마주친 구조 정보가 모두 담기므로, 산란 보정 알고리즘과 결합하면 산란체 너머의 물체까지 비접촉으로 영상화할 수 있다는 점이 본 시스템의 강점입니다.
+                      </p>
+                    </div>
+
+                    
+                  </div>
+
+                  
+                </div>
+              </div>
+
+
             </div>
           </section>
 

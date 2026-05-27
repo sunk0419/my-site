@@ -152,20 +152,20 @@ export default function TeamsProfessorsPage() {
                       className="text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      (컨소시엄에서의 역할 한줄 소개)
+                     반사행렬 현미경 기술을 NV 센터 기반 이미징 시스템에 접목하여 이미징 해상도와 심도를 향상시키는 연구를 하고 있습니다.
                     </p>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
                     
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword1
+                      Quantum Imaging
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword2
+                      Reflection Matrix Microscopy
                     </span>
                     <span className="rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-semibold text-zinc-700">
-                      keyword3
+                      Deep Tissue Imaging
                     </span>
                   </div>
 

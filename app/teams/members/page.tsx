@@ -232,14 +232,12 @@ export default function TeamsMembersPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-2">
+                  
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    연구교수 2명
+                    박사후연구원 6명
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명
-                  </span>
-                  <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    대학원생 3명
+                    대학원생 11명
                   </span>
                 </div>
               </div>
@@ -248,8 +246,8 @@ export default function TeamsMembersPage() {
                 className="mt-6 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                 style={{ wordBreak: "keep-all" }}
               >
-                고려대학교 최원식 연구팀은 세부 과제 연계 연구를 수행하며, 양자센싱
-                및 이미징 응용 분야에서 협력 연구를 추진하는 연구실입니다.
+                고려대학교 최원식 연구팀은 반사행렬 현미경 기술을 NV 센터 기반 이미징 시스템에 접목하여 이미징 해상도와 심도를 향상시키는 연구를 하고 있습니다.
+
               </p>
 
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -258,14 +256,15 @@ export default function TeamsMembersPage() {
                     Research Professor
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    연구교수 01
+                    강성삼
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher01@korea.ac.kr
+                    kssam01@gmail.com
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Quantum optics and sensing system integration
+                     CLASS imaging
+
                     </p>
                   </div>
                 </div>
@@ -275,65 +274,82 @@ export default function TeamsMembersPage() {
                     Research Professor
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    연구교수 02
+                    홍진희
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    researcher02@korea.ac.kr
+                    jin.h.hong@gmail.com
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Imaging analysis and experimental control
+                      Bioimaging
+                    </p>
+                  </div>
+                </div>
+
+                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                  <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
+                    Research Professor
+                  </p>
+                  <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
+                    윤태일
+                  </h3>
+                  <p className="mt-4 text-[15px] leading-7 text-zinc-700">
+                    taeil021@korea.ac.kr
+                  </p>
+                  <div className="mt-5 border-t border-zinc-200 pt-5">
+                    <p className="text-[15px] leading-8 text-zinc-700">
+                      Laser ultrasound imaging
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Postdoctoral Researcher
+                    Ph.D. Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    박사후연구원 01
+                    임수민
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    postdoc01@korea.ac.kr
+                    lsm9333@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Solid-state quantum imaging and signal analysis
+                     -
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
+                    Ph.D. Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 01
+                   NGUYEN THI VAN ANH
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student01@korea.ac.kr
+                    16003056@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Quantum imaging of solid-state materials
+                      Endoscopic microscopy and optical diffraction tomography
                     </p>
                   </div>
                 </div>
 
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Graduate Student
+                    Ph.D. Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 02
+                    성은영
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student02@korea.ac.kr
+                    s081209@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Optical control and materials sensing
+                      Reflection matrix microscopy
                     </p>
                   </div>
                 </div>
