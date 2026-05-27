@@ -1023,7 +1023,7 @@ export default function TeamsSub1Page() {
                   </div>
                 </div>
 
-                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                <div className="mt-6">
                   <div>
                     <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
@@ -1060,7 +1060,7 @@ export default function TeamsSub1Page() {
                       </div>
                     </div>
                   </div>
-                <div className="mt-6"></div>   
+                
                   <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                     <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                       주요 구성 및 스펙
@@ -1129,7 +1129,7 @@ export default function TeamsSub1Page() {
                   </div>
                 </div>
 
-                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                <div className="mt-6">
                   <div>
                     <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
