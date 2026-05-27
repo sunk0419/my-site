@@ -302,7 +302,7 @@ export const pageInfoMap: Record<string, PageInfo> = {
 export const partnerLogos = [
   { key: "korea", src: "/partners/korea.svg", alt: "고려대학교 로고" },
   { key: "yuksa", src: "/partners/sugang.png", alt: "서강대 로고" },
-  { key: "kriss", src: "/partners/kriss.png", alt: "KRISS 로고" },
+  { key: "kriss", src: "/partners/kriss.jpg", alt: "KRISS 로고" },
   { key: "unist", src: "/partners/unist.png", alt: "UNIST 로고" },
   { key: "chosun", src: "/partners/chosun.svg", alt: "조선대학교 로고" },
 ];
