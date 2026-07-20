@@ -43,27 +43,25 @@ const RECRUIT_POSTS: RecruitPost[] = [
     category: "박사후연구원",
     title: "[예시] 세부1 연구팀 박사후연구원 채용",
     target: "박사후연구원",
-    period: "2026.03.01 - 2026.03.31",
-    status: "접수예정",
+    period: "2026.03.01 - ",
+    status: "상시모집",
     summary:
       "세부1 연구팀에서 박사후연구원을 모집합니다. 연구 주제, 지원 자격, 제출 서류는 상세 페이지에서 확인하실 수 있습니다.",
     detail: [
-      "모집 분야: 세부1 연구팀 관련 연구 분야",
-      "지원 자격: 관련 분야 박사학위 소지자 또는 임용 예정일까지 박사학위 취득 예정자",
-      "제출 서류: 이력서, 연구실적 목록, 자기소개서, 개인정보 수집·이용 동의서",
-      "전형 절차: 서류 검토 후 개별 면담 또는 인터뷰 진행",
+      "첨부파일 참고",
+     
     ],
     // public 폴더 기준 경로입니다. 예: /public/recruitment/postdoc-poster.jpg
     posterUrl: "/recruitment/postdoc-poster.jpg",
     attachments: [
       {
-        label: "지원서 양식",
+        label: "박사후 연구원 채용 공고문",
         fileName: "postdoc.hiring.docx",
         href: "/news/hiring/postdoc.hiring.docx",
       },
      
     ],
-    contactEmail: "recruitment@example.ac.kr",
+    contactEmail: "donghun@korea.ac.kr",
   },
 ];
 
