@@ -58,19 +58,10 @@ const RECRUIT_POSTS: RecruitPost[] = [
     attachments: [
       {
         label: "지원서 양식",
-        fileName: "postdoc-application-form.hwp",
-        href: "/recruitment/postdoc-application-form.hwp",
+        fileName: "postdoc.hiring.docx",
+        href: "/news/hiring/postdoc.hiring.docx",
       },
-      {
-        label: "개인정보 수집·이용 동의서",
-        fileName: "privacy-consent-form.pdf",
-        href: "/recruitment/privacy-consent-form.pdf",
-      },
-      {
-        label: "채용 공고문 PDF",
-        fileName: "postdoc-recruitment-notice.pdf",
-        href: "/recruitment/postdoc-recruitment-notice.pdf",
-      },
+     
     ],
     contactEmail: "recruitment@example.ac.kr",
   },
@@ -179,33 +170,7 @@ function RecruitmentDetail({
           </div>
 
           <aside className="space-y-6">
-            <div className="rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-              <div className="inline-flex rounded-2xl bg-blue-50 p-3 text-blue-700">
-                <ImageIcon className="h-5 w-5" />
-              </div>
-              <h3 className="mt-5 text-xl font-semibold tracking-tight text-zinc-950">
-                공고 포스터
-              </h3>
-
-              {post.posterUrl ? (
-                <a
-                  href={post.posterUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 block overflow-hidden rounded-[22px] border border-zinc-200 bg-zinc-50 transition hover:opacity-90"
-                >
-                  <img
-                    src={post.posterUrl}
-                    alt={`${post.title} 포스터`}
-                    className="h-auto w-full object-cover"
-                  />
-                </a>
-              ) : (
-                <div className="mt-5 rounded-[22px] border border-dashed border-zinc-300 bg-zinc-50 px-5 py-10 text-center text-sm font-medium text-zinc-500">
-                  등록된 포스터가 없습니다.
-                </div>
-              )}
-            </div>
+            
 
             <div className="rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
               <div className="inline-flex rounded-2xl bg-blue-50 p-3 text-blue-700">
@@ -297,13 +262,7 @@ export default function NewsRecruitmentPage() {
               채용공고 세부 내용을 소개합니다.
             </h1>
 
-            <p
-              className="mt-6 max-w-4xl text-[15px] leading-8 text-blue-50/90 md:text-lg"
-              style={{ wordBreak: "keep-all" }}
-            >
-              박사후연구원 채용 공고와 모집 안내를 정리한 페이지입니다. 공고 제목을
-              클릭하면 상세 안내, 포스터, 첨부파일 양식을 확인할 수 있습니다.
-            </p>
+            
           </section>
 
           {selectedPost ? (
@@ -334,8 +293,8 @@ export default function NewsRecruitmentPage() {
                       className="mt-5 max-w-5xl text-[15px] leading-8 text-zinc-700 md:text-[16px]"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      현재 채용 공고 탭에는 박사후연구원 채용 공고만 표시됩니다. 공고
-                      제목을 선택하면 상세 페이지에서 공고 포스터와 지원 서류 양식을
+                      공고
+                      제목을 클릭하면 상세 페이지에서 공고 포스터와 지원 서류 양식을
                       다운로드할 수 있습니다.
                     </p>
                   </div>
