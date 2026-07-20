@@ -472,59 +472,7 @@ export default function NewsRecruitmentPage() {
                 </div>
               </section>
 
-              <section className="rounded-[34px] bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 p-px shadow-lg">
-                <div className="rounded-[33px] bg-white px-6 py-8 md:px-10 md:py-10">
-                  <div className="grid gap-6 lg:grid-cols-3">
-                    <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                      <div className="inline-flex rounded-2xl bg-blue-50 p-3 text-blue-700">
-                        <FileText className="h-5 w-5" />
-                      </div>
-                      <h3 className="mt-5 text-xl font-semibold tracking-tight text-zinc-950">
-                        지원 서류
-                      </h3>
-                      <p
-                        className="mt-4 text-[15px] leading-8 text-zinc-700"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        이력서, 자기소개서, 연구실적 목록 등 기본 제출 서류를 공고별
-                        첨부파일로 연결할 수 있습니다.
-                      </p>
-                    </div>
-
-                    <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                      <div className="inline-flex rounded-2xl bg-blue-50 p-3 text-blue-700">
-                        <BriefcaseBusiness className="h-5 w-5" />
-                      </div>
-                      <h3 className="mt-5 text-xl font-semibold tracking-tight text-zinc-950">
-                        전형 절차
-                      </h3>
-                      <p
-                        className="mt-4 text-[15px] leading-8 text-zinc-700"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        서류 검토, 면담, 인터뷰 등의 전형 절차를 상세 페이지에서
-                        공고별로 안내할 수 있습니다.
-                      </p>
-                    </div>
-
-                    <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
-                      <div className="inline-flex rounded-2xl bg-blue-50 p-3 text-blue-700">
-                        <Mail className="h-5 w-5" />
-                      </div>
-                      <h3 className="mt-5 text-xl font-semibold tracking-tight text-zinc-950">
-                        문의 안내
-                      </h3>
-                      <p
-                        className="mt-4 text-[15px] leading-8 text-zinc-700"
-                        style={{ wordBreak: "keep-all" }}
-                      >
-                        채용 관련 문의 메일 주소와 담당 연구실 정보를 공고별 상세
-                        페이지에 표기할 수 있습니다.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </section>
+              
             </>
           )}
         </div>
