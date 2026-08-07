@@ -41,12 +41,12 @@ const RECRUIT_POSTS: RecruitPost[] = [
   {
     id: 1,
     category: "박사후연구원",
-    title: "[예시] 세부1 연구팀 박사후연구원 채용",
+    title: "세부1 연구팀 박사후연구원 채용",
     target: "박사후연구원",
     period: "2026.08.01 - 2026.09.30",
     status: "모집중",
     summary:
-      "세부1 연구팀에서 박사후연구원을 모집합니다. 연구 주제, 지원 자격, 제출 서류는 상세 페이지에서 확인하실 수 있습니다.",
+      "박사후연구원을 모집합니다. 연구 주제, 지원 자격, 제출 서류는 상세 페이지에서 확인하실 수 있습니다.",
     detail: [
       "첨부파일 참고",
      
@@ -61,7 +61,7 @@ const RECRUIT_POSTS: RecruitPost[] = [
       },
      
     ],
-    contactEmail: "donghun@korea.ac.kr",
+    contactEmail: "각 기관별 문의 메일 상이하므로, 첨부파일 참고 바랍니다."
   },
 ];
 
