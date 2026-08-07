@@ -41,7 +41,7 @@ const RECRUIT_POSTS: RecruitPost[] = [
   {
     id: 1,
     category: "박사후연구원",
-    title: "세부1 연구팀 박사후연구원 채용",
+    title: "퀀텀 플레그십 참여기관 박사후연구원 채용",
     target: "박사후연구원",
     period: "2026.08.01 - 2026.09.30",
     status: "모집중",
