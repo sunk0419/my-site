@@ -56,8 +56,8 @@ const RECRUIT_POSTS: RecruitPost[] = [
     attachments: [
       {
         label: "박사후 연구원 채용 공고문",
-        fileName: "postdoc.hiring.docx",
-        href: "/news/hiring/postdoc.hiring.docx",
+        fileName: "postdoc.hiring.pdf",
+        href: "/news/hiring/postdoc.hiring.pdf",
       },
      
     ],
