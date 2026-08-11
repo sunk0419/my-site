@@ -84,7 +84,7 @@ const PAPERS = [
     publishedAt: "2026.04",
     volume: "Vol. 25, No. 4, 044092",
     doi: "10.1103/j6c4-fpxc",
-    thumbnail: "/news/papers/ID5.jpg",
+    thumbnail: "/news/papers/ID5.png",
     link: "https://journals.aps.org/prapplied/abstract/10.1103/j6c4-fpxc",
     abstract:
       "다이아몬드 NV 센터 기반 단일 스핀 주사 자력계를 이용해 자기 보텍스와 안티보텍스의 동역학을 관찰하고, 보텍스 코어에 국소화된 GHz 대역 AC 자기장을 큐비트 제어용 국소 마이크로파 소스로 활용할 가능성을 제시한 연구입니다.",
