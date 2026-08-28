@@ -88,14 +88,12 @@ export default function TeamsMembersPage() {
                 </div>
 
                 <div className="flex flex-wrap gap-2">
-                  <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    박사후연구원 1명
-                  </span>
+                  
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
                     박사후연구원 2명 예정
                   </span>
                   <span className="rounded-full bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    대학원생 13명 (+4명 예정)
+                    대학원생 22명 
                   </span>
                 </div>
               </div>
@@ -112,17 +110,17 @@ export default function TeamsMembersPage() {
               <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 <div className="rounded-[26px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-blue-700">
-                    Postdoctoral Researcher
+                   Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    박사후연구원 01
+                    Yuhan Lee
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    postdoc01@korea.ac.kr
+                   yuhan16713270@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Diamond NV 센터 기반 자기장 측정 및 신호 증폭 기술 연구
+                      Quantum Imaging of Solid-State Materials
                     </p>
                   </div>
                 </div>
@@ -132,14 +130,14 @@ export default function TeamsMembersPage() {
                     Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 01
+                    Seongjin Jang
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student01@korea.ac.kr
+                    diamatgarmbalrog@gmail.com
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Quantum sensing based on diamond NV centers
+                      Quantum Imaging of Solid-State Materials
                     </p>
                   </div>
                 </div>
@@ -149,14 +147,14 @@ export default function TeamsMembersPage() {
                     Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 02
+                    Jaebum Park
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student02@korea.ac.kr
+                    zaifan135@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Nano / Micro MRI imaging platform development
+                      Magnetometry with diamond NV centers
                     </p>
                   </div>
                 </div>
@@ -166,10 +164,10 @@ export default function TeamsMembersPage() {
                     Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 03
+                    Jinsu Jung
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student03@korea.ac.kr
+                   wlstn9622@gmail.com
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
@@ -183,14 +181,14 @@ export default function TeamsMembersPage() {
                     Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 04
+                   Arman Sykot
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student04@korea.ac.kr
+                    armansykot@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Spin-based sensing and frequency discrimination
+                      Quantum computation based on spin qubits
                     </p>
                   </div>
                 </div>
@@ -200,14 +198,14 @@ export default function TeamsMembersPage() {
                     Graduate Student
                   </p>
                   <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950">
-                    학생 05
+                    Yisoo Na
                   </h3>
                   <p className="mt-4 text-[15px] leading-7 text-zinc-700">
-                    student05@korea.ac.kr
+                    yisoo12@korea.ac.kr
                   </p>
                   <div className="mt-5 border-t border-zinc-200 pt-5">
                     <p className="text-[15px] leading-8 text-zinc-700">
-                      Biological sample imaging and platform validation
+                      Quantum computation based on spin qubits
                     </p>
                   </div>
                 </div>
