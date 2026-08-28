@@ -308,6 +308,8 @@ export default function TeamsSub1Page() {
                 </div>
               </div>
 
+
+
               <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
                 <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
                   <div>
@@ -316,43 +318,34 @@ export default function TeamsSub1Page() {
                     </p>
 
                     <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
-                      Wide-field NV Magnetic Imaging System
+                      Wide-field NV Microscopy
                     </h3>
 
                     <p className="mt-3 text-sm font-semibold text-blue-700">
-                      핵심 이미징 장비
+                      연구단 자체 개발 장비
                     </p>
 
                     <p
                       className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
                       style={{ wordBreak: "keep-all" }}
                     >
-                      세부1 연구팀의 대표 이미징 장비로, 시료 표면의 자기장 분포를
-                      넓은 시야에서 정밀하게 측정할 수 있는 시스템입니다.
+                      이동헌 교수 연구팀의 자체 개발 장비로, 자기장 패턴을 넓고 빠르게 획득할 수 있는 장비이다.
                     </p>
                   </div>
 
-                  <div className="mb-4 rounded-2xl bg-blue-50 px-8 py-4 text-sm font-semibold text-blue-700 ring-1 ring-blue-100">
-                    세부1 핵심 장비
-                  </div>
+                 
                 </div>
 
-                <div className="mt-4 grid gap-4 md:grid-cols-2">
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
                   <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
                     <img
-                      src="/teams/sub1/figure1.png"
+                      src="/teams/sub1/Lee_eq1.png"
                       alt="세부1 연구팀 NV 이미징 시스템 전경"
                       className="block h-auto w-full object-cover"
                     />
                   </div>
 
-                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
-                    <img
-                      src="/teams/sub1/figure2.png"
-                      alt="세부1 연구팀 NV 이미징 광학 모듈"
-                      className="block h-auto w-full object-cover"
-                    />
-                  </div>
+                  
                 </div>
 
                 <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -366,10 +359,8 @@ export default function TeamsSub1Page() {
                         className="mt-4 text-[15px] leading-8 text-zinc-700"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        광학 현미경, 레이저 여기, 마이크로파 구동부, 자기장 제어 모듈,
-                        형광 검출 카메라를 통합한 장비입니다. 장비 구조와 운용 목적을
-                        교수님의 연구 방향과 함께 보여주면 세부1 연구팀 페이지에서
-                        연구-장비 연결성이 더 명확해집니다.
+                        Shallow NV 층을 갖는 다이아몬드 표면에 형성된 자기장의 패턴을 고속으로 획득함.
+
                       </p>
                     </div>
 
@@ -377,18 +368,15 @@ export default function TeamsSub1Page() {
                       <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
                         활용 분야
                       </h4>
+                     <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       반도체 또는 나노자성 소자에서 발생된 자기장을 마이크로미터 분해능으로 이미징하고 이를 바탕으로 소자의 특성을 진단하는 장치
 
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          나노 · 마이크로 자기장 측정
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          시료 기반 이미징 실험
-                        </span>
-                        <span className="rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold text-zinc-700">
-                          양자센서 플랫폼 검증
-                        </span>
-                      </div>
+                      </p>
+                      
+                     
                     </div>
                   </div>
 
@@ -408,14 +396,108 @@ export default function TeamsSub1Page() {
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        핵심 구성 · Laser / Microwave / Objective / Camera
+                        핵심 구성 · 대물렌즈, EMICCD, AOM, 마이크로파 안테나
+
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div className="mt-6 rounded-[28px] border border-zinc-200 bg-white px-6 py-6 shadow-[0_18px_40px_rgba(15,23,42,0.06)] md:px-8 md:py-8">
+                <div className="flex flex-col gap-4 border-b border-zinc-200 pb-5 md:flex-row md:items-end md:justify-between">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-blue-700">
+                      EQUIPMENT
+                    </p>
+
+                    <h3 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-950 md:text-3xl">
+                      Wide-field NV Microscopy.ver2
+                    </h3>
+
+                    <p className="mt-3 text-sm font-semibold text-blue-700">
+                      연구단 자체 개발 장비
+                    </p>
+
+                    <p
+                      className="mt-4 mb-4 text-[15px] leading-8 text-zinc-700"
+                      style={{ wordBreak: "keep-all" }}
+                    >
+                      이동헌 교수 연구팀의 플레그십 과제를 위해 개발된 장비로, 시료 표면의 자기장 분포를
+                      넓은 시야에서 정밀하게 측정할 수 있을 뿐더러 매질 깊숙한 곳의 NV 형광 신호를 보정하여 해석할 수 있는 시스템이다.
+                    </p>
+                  </div>
+
+                 
+                </div>
+
+                <div className="mt-4 grid gap-4 md:grid-cols-1">
+                  <div className="mx-auto w-full max-w-[520px] overflow-hidden rounded-[26px] border border-zinc-200 bg-zinc-100">
+                    <img
+                      src="/teams/sub1/Lee_eq2.png"
+                      alt="세부1 연구팀 NV 이미징 시스템 전경2"
+                      className="block h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  
+                </div>
+
+                <div className="mt-6 grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+                  <div>
+                    <div className="rounded-[26px] bg-gradient-to-br from-white via-slate-50/90 to-blue-50/30 px-6 py-6 ring-1 ring-slate-200/70">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        장비 설명
+                      </h4>
+
+                      <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        Shallow NV 층을 갖는 다이아몬드 표면에 형성된 자기장의 패턴을 고속으로 획득함.
+
+                      </p>
+                    </div>
+
+                    <div className="mt-5 rounded-[26px] bg-white px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                      <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                        활용 분야
+                      </h4>
+                     <p
+                        className="mt-4 text-[15px] leading-8 text-zinc-700"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                       매질 깊숙한 곳의 NV 형광 신호를 파면 오차 보정 알고리즘으로 복구한다.
+                      </p>
+                      
+                     
+                    </div>
+                  </div>
+
+                  <div className="rounded-[26px] bg-gradient-to-br from-slate-50 to-blue-50 px-6 py-6 ring-1 ring-zinc-200 shadow-[0_14px_30px_rgba(15,23,42,0.05)]">
+                    <h4 className="text-lg font-semibold tracking-tight text-zinc-950">
+                      주요 구성 및 스펙
+                    </h4>
+
+                    <ul className="mt-4 space-y-4">
+                      <li
+                        className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
+                        style={{ wordBreak: "keep-all" }}
+                      >
+                        측정 방식 · Wide-field magnetic imaging
                       </li>
                       <li
                         className="rounded-2xl bg-white px-4 py-4 text-[14px] leading-7 text-zinc-700 ring-1 ring-white shadow-sm md:text-[15px]"
                         style={{ wordBreak: "keep-all" }}
                       >
-                        주요 활용 · 자기장 맵핑, 시료 특성 분석, 양자센서 검증
+                        핵심 구성 · 대물렌즈, sCMOS, AOM, 마이크로파 안테나, DMD, SLM, Galvano mirror, Microscope stage
+
                       </li>
+                      
                     </ul>
                   </div>
                 </div>
